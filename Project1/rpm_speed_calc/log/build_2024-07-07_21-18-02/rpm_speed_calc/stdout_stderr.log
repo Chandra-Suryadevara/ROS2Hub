@@ -1,0 +1,192 @@
+[35m[1mConsolidate compiler generated dependencies of target publishspeed[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/publishrmp.dir/src/publishrmp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o[0m
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:30:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   30 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat64[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:30:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |     rclcpp::Publisher<std_msgs::msg::Float64[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:30:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |     rclcpp::Publisher<std_msgs::msg::Float64>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:30:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   30 |     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_publisher_t[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:[m[K In constructor ‘[01m[KRPMNODE::RPMNODE()[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:14:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_rpm[m[K’?
+   14 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64>("RPM", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Kpublish_rpm[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:14:58:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   14 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KFloat64[m[K>("RPM", 10);
+      |                                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:14:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRPMNODE::create_publisher<<expression error> >(const char [4], int)[m[K’
+   14 |       publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("RPM", 10)[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:14:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |       publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("RPM", 10)[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:21:48:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   21 |         void sub_callback(const std_msgs::msg::[01;31m[KFloat64[m[K & msg) const {
+      |                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:24:48:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   24 |          void publish_rpm(const std_msgs::msg::[01;31m[KFloat64[m[K & msg)
+      |                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:33:42:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   33 |         rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat64[m[K>::SharedPtr publisher_;
+      |                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:33:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |         rclcpp::Publisher<std_msgs::msg::Float64[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:33:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   33 |         rclcpp::Publisher<std_msgs::msg::Float64>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:33:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   33 |         rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                                              [32m[Krmw_publisher_t[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:45:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   34 |         rclcpp::Subscription<std_msgs::msg::[01;31m[KFloat64[m[K> ::SharedPtr Subscription;
+      |                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |         rclcpp::Subscription<std_msgs::msg::Float64[01;31m[K>[m[K ::SharedPtr Subscription;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |         rclcpp::Subscription<std_msgs::msg::Float64> ::[01;31m[KSharedPtr[m[K Subscription;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint SPEEDNODE::SharedPtr[m[K’
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:33:52:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint SPEEDNODE::SharedPtr[m[K’
+   33 |         rclcpp::Publisher<std_msgs::msg::Float64>::[01;36m[KSharedPtr[m[K publisher_;
+      |                                                    [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:34:66:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscription[m[K’ does not name a type
+   34 |         rclcpp::Subscription<std_msgs::msg::Float64> ::SharedPtr [01;31m[KSubscription[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In constructor ‘[01m[KSPEEDNODE::SPEEDNODE()[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscription[m[K’ was not declared in this scope
+   14 |         [01;31m[KSubscription[m[K = this->create_subscription<std_msgs::msg::Float64>(
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:14:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:75:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Subscription[m[K’
+   75 | class [01;36m[KSubscription[m[K : public SubscriptionBase
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:42:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::EndpointType::Subscription[m[K’
+   42 |   [01;36m[KSubscription[m[K = RMW_ENDPOINT_SUBSCRIPTION
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:14:65:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   14 |         Subscription = this->create_subscription<std_msgs::msg::[01;31m[KFloat64[m[K>(
+      |                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_rpm[m[K’ is not a member of ‘[01m[KSPEEDNODE[m[K’
+   15 |             "RPM", 10, std::bind(&SPEEDNODE::[01;31m[Kget_rpm[m[K,this,std::placeholders::_1)
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:[m[K In member function ‘[01m[Kvoid RPMNODE::publish_rpm()[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:23:37:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   23 |       auto message = std_msgs::msg::[01;31m[KFloat64[m[K();
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_rpm[m[K’?
+   18 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64>("Speed", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kpublish_rpm[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:18:60:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   18 |         publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KFloat64[m[K>("Speed", 10);
+      |                                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:18:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSPEEDNODE::create_publisher<<expression error> >(const char [6], int)[m[K’
+   18 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("Speed", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:18:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("Speed", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In member function ‘[01m[Kvoid SPEEDNODE::publish_rpm(const int&)[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   28 |         auto message = std_msgs::msg::[01;31m[KFloat64[m[K();
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishrmp.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_rpm[m[K’?
+   26 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Kpublish_rpm[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublish_rpm[m[K’?
+   30 |         [01;31m[Kpublisher_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kpublish_rpm[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:[m[K In constructor ‘[01m[KHelloWorldSubNode::HelloWorldSubNode()[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:9:65:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+    9 |         Subscription = this->create_subscription<std_msgs::msg::[01;31m[KFloat64[m[K>(
+      |                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:9:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHelloWorldSubNode::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (HelloWorldSubNode::*)(const int&) const, HelloWorldSubNode*, const std::_Placeholder<1>&>::type)[m[K’
+    9 |         Subscription = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "Speed", 10, std::bind(&HelloWorldSubNode::sub_callback,this,std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:9:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |         Subscription = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64>([m[K
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   10 | [01;31m[K            "Speed", 10, std::bind(&HelloWorldSubNode::sub_callback,this,std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid HelloWorldSubNode::sub_callback(const int&) const[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:22:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   22 |             std::cout<<"Speed is " <<msg.[01;31m[Kdata[m[K<<std::endl;
+      |                                          [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/publishspeed.dir/build.make:76: CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publishspeed.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/publishrmp.dir/build.make:76: CMakeFiles/publishrmp.dir/src/publishrmp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/publishrmp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

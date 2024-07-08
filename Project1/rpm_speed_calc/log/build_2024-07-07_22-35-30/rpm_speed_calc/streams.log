@@ -1,0 +1,17 @@
+[0.048s] Invoking command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target publishspeed[0m
+[0.270s] [ 33%] Built target publishrmp
+[0.330s] [ 50%] [32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o[0m
+[0.342s] [ 83%] Built target subscriber
+[12.028s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In member function ‘[01m[Kvoid SPEEDNODE::publish_rpm(const Float64&)[m[K’:
+[12.029s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:27:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kconst Float64[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Float64_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[12.029s]    27 |                 speed = [32m[Kmsg[m[K[01;31m[K*[m[K[34m[K10[m[K;
+[12.030s]       |                         [32m[K~~~[m[K[01;31m[K^[m[K[34m[K~~[m[K
+[12.030s]       |                         [32m[K|[m[K   [34m[K|[m[K
+[12.031s]       |                         [32m[K|[m[K   [34m[Kint[m[K
+[12.031s]       |                         [32m[Kconst Float64 {aka const std_msgs::msg::Float64_<std::allocator<void> >}[m[K
+[22.822s] gmake[2]: *** [CMakeFiles/publishspeed.dir/build.make:76: CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o] Error 1
+[22.823s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publishspeed.dir/all] Error 2
+[22.823s] gmake: *** [Makefile:146: all] Error 2
+[22.830s] Invoked command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4

@@ -1,0 +1,25 @@
+[0.061s] Invoking command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target publishrmp[0m
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target publishspeed[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.384s] [ 16%] [32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o[0m
+[0.451s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.458s] [ 66%] Built target publishrmp
+[13.230s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In constructor ‘[01m[KSPEEDNODE::SPEEDNODE()[m[K’:
+[13.231s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_rpm[m[K’ is not a member of ‘[01m[KSPEEDNODE[m[K’
+[13.231s]    15 |             "RPM", 10, std::bind(&SPEEDNODE::[01;31m[Kget_rpm[m[K,this,std::placeholders::_1)
+[13.235s]       |                                              [01;31m[K^~~~~~~[m[K
+[13.243s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In member function ‘[01m[Kvoid SPEEDNODE::publish_rpm(const Float64&)[m[K’:
+[13.244s] [01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:27:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kconst Float64[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Float64_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[13.244s]    27 |                 speed = [32m[Kmsg[m[K[01;31m[K*[m[K[34m[K10[m[K;
+[13.244s]       |                         [32m[K~~~[m[K[01;31m[K^[m[K[34m[K~~[m[K
+[13.245s]       |                         [32m[K|[m[K   [34m[K|[m[K
+[13.245s]       |                         [32m[K|[m[K   [34m[Kint[m[K
+[13.245s]       |                         [32m[Kconst Float64 {aka const std_msgs::msg::Float64_<std::allocator<void> >}[m[K
+[17.643s] gmake[2]: *** [CMakeFiles/publishspeed.dir/build.make:76: CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o] Error 1
+[17.644s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publishspeed.dir/all] Error 2
+[17.645s] gmake[1]: *** Waiting for unfinished jobs....
+[38.940s] [ 83%] [32m[1mLinking CXX executable subscriber[0m
+[40.872s] [ 83%] Built target subscriber
+[40.882s] gmake: *** [Makefile:146: all] Error 2
+[40.885s] Invoked command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4

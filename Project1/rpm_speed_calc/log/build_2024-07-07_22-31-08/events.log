@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000628] (rpm_speed_calc) JobQueued: {'identifier': 'rpm_speed_calc', 'dependencies': OrderedDict()}
+[0.001646] (rpm_speed_calc) JobStarted: {'identifier': 'rpm_speed_calc'}
+[0.042741] (rpm_speed_calc) JobProgress: {'identifier': 'rpm_speed_calc', 'progress': 'cmake'}
+[0.046455] (rpm_speed_calc) JobProgress: {'identifier': 'rpm_speed_calc', 'progress': 'build'}
+[0.050217] (rpm_speed_calc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 54184 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces/first_project/src'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c157c8a7-1010-4070-99d4-af6aea3a6cce.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '30'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 54184 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc:/opt/ros/humble')]), 'shell': False}
+[0.097333] (-) TimerEvent: {}
+[0.198981] (-) TimerEvent: {}
+[0.253153] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publishrmp\x1b[0m\n'}
+[0.287049] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.299190] (-) TimerEvent: {}
+[0.321691] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publishspeed\x1b[0m\n'}
+[0.401053] (-) TimerEvent: {}
+[0.417954] (rpm_speed_calc) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.469495] (rpm_speed_calc) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/publishrmp.dir/src/publishrmp.cpp.o\x1b[0m\n'}
+[0.478296] (rpm_speed_calc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o\x1b[0m\n'}
+[0.501268] (-) TimerEvent: {}
+[0.602024] (-) TimerEvent: {}
+[0.702796] (-) TimerEvent: {}
+[0.805038] (-) TimerEvent: {}
+[0.909033] (-) TimerEvent: {}
+[1.009816] (-) TimerEvent: {}
+[1.110585] (-) TimerEvent: {}
+[1.211821] (-) TimerEvent: {}
+[1.317051] (-) TimerEvent: {}
+[1.417751] (-) TimerEvent: {}
+[1.518474] (-) TimerEvent: {}
+[1.619645] (-) TimerEvent: {}
+[1.720586] (-) TimerEvent: {}
+[1.822282] (-) TimerEvent: {}
+[1.923897] (-) TimerEvent: {}
+[2.026040] (-) TimerEvent: {}
+[2.127476] (-) TimerEvent: {}
+[2.229409] (-) TimerEvent: {}
+[2.333063] (-) TimerEvent: {}
+[2.445092] (-) TimerEvent: {}
+[2.549095] (-) TimerEvent: {}
+[2.649918] (-) TimerEvent: {}
+[2.751470] (-) TimerEvent: {}
+[2.853291] (-) TimerEvent: {}
+[2.954077] (-) TimerEvent: {}
+[3.055153] (-) TimerEvent: {}
+[3.156609] (-) TimerEvent: {}
+[3.258092] (-) TimerEvent: {}
+[3.359526] (-) TimerEvent: {}
+[3.460948] (-) TimerEvent: {}
+[3.561799] (-) TimerEvent: {}
+[3.668180] (-) TimerEvent: {}
+[3.769045] (-) TimerEvent: {}
+[3.874854] (-) TimerEvent: {}
+[3.981068] (-) TimerEvent: {}
+[4.085058] (-) TimerEvent: {}
+[4.189054] (-) TimerEvent: {}
+[4.292411] (-) TimerEvent: {}
+[4.397047] (-) TimerEvent: {}
+[4.497831] (-) TimerEvent: {}
+[4.600142] (-) TimerEvent: {}
+[4.702411] (-) TimerEvent: {}
+[4.810092] (-) TimerEvent: {}
+[4.910884] (-) TimerEvent: {}
+[5.013113] (-) TimerEvent: {}
+[5.115412] (-) TimerEvent: {}
+[5.217054] (-) TimerEvent: {}
+[5.321080] (-) TimerEvent: {}
+[5.421875] (-) TimerEvent: {}
+[5.532117] (-) TimerEvent: {}
+[5.634854] (-) TimerEvent: {}
+[5.740829] (-) TimerEvent: {}
+[5.842275] (-) TimerEvent: {}
+[5.945038] (-) TimerEvent: {}
+[6.049039] (-) TimerEvent: {}
+[6.151819] (-) TimerEvent: {}
+[6.253023] (-) TimerEvent: {}
+[6.357048] (-) TimerEvent: {}
+[6.461039] (-) TimerEvent: {}
+[6.564277] (-) TimerEvent: {}
+[6.669052] (-) TimerEvent: {}
+[6.773037] (-) TimerEvent: {}
+[6.877039] (-) TimerEvent: {}
+[6.978061] (-) TimerEvent: {}
+[7.081042] (-) TimerEvent: {}
+[7.185077] (-) TimerEvent: {}
+[7.286072] (-) TimerEvent: {}
+[7.386929] (-) TimerEvent: {}
+[7.489052] (-) TimerEvent: {}
+[7.592494] (-) TimerEvent: {}
+[7.701050] (-) TimerEvent: {}
+[7.805060] (-) TimerEvent: {}
+[7.909042] (-) TimerEvent: {}
+[8.013037] (-) TimerEvent: {}
+[8.117042] (-) TimerEvent: {}
+[8.221043] (-) TimerEvent: {}
+[8.325043] (-) TimerEvent: {}
+[8.429039] (-) TimerEvent: {}
+[8.533056] (-) TimerEvent: {}
+[8.633829] (-) TimerEvent: {}
+[8.745406] (-) TimerEvent: {}
+[8.849056] (-) TimerEvent: {}
+[8.953036] (-) TimerEvent: {}
+[9.053823] (-) TimerEvent: {}
+[9.155203] (-) TimerEvent: {}
+[9.257632] (-) TimerEvent: {}
+[9.359554] (-) TimerEvent: {}
+[9.461526] (-) TimerEvent: {}
+[9.563376] (-) TimerEvent: {}
+[9.665690] (-) TimerEvent: {}
+[9.773044] (-) TimerEvent: {}
+[9.873927] (-) TimerEvent: {}
+[9.974746] (-) TimerEvent: {}
+[10.085062] (-) TimerEvent: {}
+[10.189045] (-) TimerEvent: {}
+[10.293044] (-) TimerEvent: {}
+[10.393860] (-) TimerEvent: {}
+[10.497033] (-) TimerEvent: {}
+[10.609054] (-) TimerEvent: {}
+[10.713038] (-) TimerEvent: {}
+[10.817036] (-) TimerEvent: {}
+[10.921060] (-) TimerEvent: {}
+[11.021868] (-) TimerEvent: {}
+[11.125038] (-) TimerEvent: {}
+[11.229036] (-) TimerEvent: {}
+[11.333038] (-) TimerEvent: {}
+[11.433832] (-) TimerEvent: {}
+[11.541066] (-) TimerEvent: {}
+[11.641895] (-) TimerEvent: {}
+[11.742740] (-) TimerEvent: {}
+[11.844685] (-) TimerEvent: {}
+[11.946597] (-) TimerEvent: {}
+[12.049136] (-) TimerEvent: {}
+[12.151476] (-) TimerEvent: {}
+[12.253403] (-) TimerEvent: {}
+[12.355270] (-) TimerEvent: {}
+[12.456878] (-) TimerEvent: {}
+[12.558537] (-) TimerEvent: {}
+[12.660402] (-) TimerEvent: {}
+[12.762022] (-) TimerEvent: {}
+[12.865754] (-) TimerEvent: {}
+[12.967500] (-) TimerEvent: {}
+[13.068730] (-) TimerEvent: {}
+[13.169979] (-) TimerEvent: {}
+[13.270719] (-) TimerEvent: {}
+[13.371954] (-) TimerEvent: {}
+[13.473176] (-) TimerEvent: {}
+[13.574467] (-) TimerEvent: {}
+[13.675761] (-) TimerEvent: {}
+[13.777037] (-) TimerEvent: {}
+[13.878320] (-) TimerEvent: {}
+[13.979896] (-) TimerEvent: {}
+[14.081224] (-) TimerEvent: {}
+[14.182547] (-) TimerEvent: {}
+[14.283856] (-) TimerEvent: {}
+[14.385191] (-) TimerEvent: {}
+[14.486474] (-) TimerEvent: {}
+[14.587739] (-) TimerEvent: {}
+[14.689038] (-) TimerEvent: {}
+[14.790361] (-) TimerEvent: {}
+[14.891689] (-) TimerEvent: {}
+[14.993043] (-) TimerEvent: {}
+[15.094416] (-) TimerEvent: {}
+[15.195755] (-) TimerEvent: {}
+[15.297688] (-) TimerEvent: {}
+[15.399488] (-) TimerEvent: {}
+[15.501362] (-) TimerEvent: {}
+[15.603109] (-) TimerEvent: {}
+[15.704910] (-) TimerEvent: {}
+[15.806144] (-) TimerEvent: {}
+[15.907392] (-) TimerEvent: {}
+[16.008717] (-) TimerEvent: {}
+[16.110881] (-) TimerEvent: {}
+[16.212616] (-) TimerEvent: {}
+[16.314361] (-) TimerEvent: {}
+[16.416235] (-) TimerEvent: {}
+[16.517083] (-) TimerEvent: {}
+[16.618474] (-) TimerEvent: {}
+[16.720444] (-) TimerEvent: {}
+[16.823227] (-) TimerEvent: {}
+[16.925159] (-) TimerEvent: {}
+[17.027320] (-) TimerEvent: {}
+[17.128979] (-) TimerEvent: {}
+[17.230770] (-) TimerEvent: {}
+[17.332040] (-) TimerEvent: {}
+[17.419541] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.420417] (rpm_speed_calc) StderrLine: {'line': b'   24 |         rclcpp::Subscription<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K> ::SharedPtr Subscription;\n'}
+[17.420970] (rpm_speed_calc) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[17.421406] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[17.421754] (rpm_speed_calc) StderrLine: {'line': b'   24 |         rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K ::SharedPtr Subscription;\n'}
+[17.422089] (rpm_speed_calc) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[17.422452] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[17.422879] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[17.423336] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[17.429266] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[17.429839] (rpm_speed_calc) StderrLine: {'line': b'   24 |         rclcpp::Subscription<std_msgs::msg::String> ::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K Subscription;\n'}
+[17.430661] (rpm_speed_calc) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.431209] (rpm_speed_calc) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[17.431762] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:24:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscription\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[17.432320] (-) TimerEvent: {}
+[17.432838] (rpm_speed_calc) StderrLine: {'line': b'   24 |         rclcpp::Subscription<std_msgs::msg::String> ::SharedPtr \x1b[01;31m\x1b[KSubscription\x1b[m\x1b[K;\n'}
+[17.433509] (rpm_speed_calc) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.441862] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KHelloWorldSubNode::HelloWorldSubNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.443421] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscription\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[17.444027] (rpm_speed_calc) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[KSubscription\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Float64>(\n'}
+[17.444511] (rpm_speed_calc) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.445012] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:9:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[17.445561] (rpm_speed_calc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[17.446105] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[17.446623] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[17.447176] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[17.447732] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[17.448210] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[17.448739] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[17.449346] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[17.449891] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[17.450463] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:75:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.451066] (rpm_speed_calc) StderrLine: {'line': b'   75 | class \x1b[01;36m\x1b[KSubscription\x1b[m\x1b[K : public SubscriptionBase\n'}
+[17.451575] (rpm_speed_calc) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.452030] (rpm_speed_calc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[17.452547] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[17.465884] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[17.466529] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[17.467103] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[17.467650] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[17.468175] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[17.468724] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[17.469612] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[17.470018] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[17.470378] (rpm_speed_calc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[17.470734] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:42:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::EndpointType::Subscription\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.471089] (rpm_speed_calc) StderrLine: {'line': b'   42 |   \x1b[01;36m\x1b[KSubscription\x1b[m\x1b[K = RMW_ENDPOINT_SUBSCRIPTION\n'}
+[17.471444] (rpm_speed_calc) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.532541] (-) TimerEvent: {}
+[17.633280] (-) TimerEvent: {}
+[17.734051] (-) TimerEvent: {}
+[17.840298] (-) TimerEvent: {}
+[17.941122] (-) TimerEvent: {}
+[18.041901] (-) TimerEvent: {}
+[18.144526] (-) TimerEvent: {}
+[18.193329] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSPEEDNODE::SPEEDNODE()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.193990] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:15:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_rpm\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KSPEEDNODE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.194514] (rpm_speed_calc) StderrLine: {'line': b'   15 |             "RPM", 10, std::bind(&SPEEDNODE::\x1b[01;31m\x1b[Kget_rpm\x1b[m\x1b[K,this,std::placeholders::_1)\n'}
+[18.195007] (rpm_speed_calc) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.229285] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SPEEDNODE::publish_rpm(const Float64&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.229986] (rpm_speed_calc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:27:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator*\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst Float64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Float64_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[18.230505] (rpm_speed_calc) StderrLine: {'line': b'   27 |                 speed = \x1b[32m\x1b[Kmsg\x1b[m\x1b[K\x1b[01;31m\x1b[K*\x1b[m\x1b[K\x1b[34m\x1b[K10\x1b[m\x1b[K;\n'}
+[18.231006] (rpm_speed_calc) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[18.231490] (rpm_speed_calc) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[18.232006] (rpm_speed_calc) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K|\x1b[m\x1b[K   \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[18.232516] (rpm_speed_calc) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kconst Float64 {aka const std_msgs::msg::Float64_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[18.244733] (-) TimerEvent: {}
+[18.349645] (-) TimerEvent: {}
+[18.455840] (-) TimerEvent: {}
+[18.561248] (-) TimerEvent: {}
+[18.663147] (-) TimerEvent: {}
+[18.765161] (-) TimerEvent: {}
+[18.877041] (-) TimerEvent: {}
+[18.977870] (-) TimerEvent: {}
+[19.079161] (-) TimerEvent: {}
+[19.180984] (-) TimerEvent: {}
+[19.285062] (-) TimerEvent: {}
+[19.385834] (-) TimerEvent: {}
+[19.487575] (-) TimerEvent: {}
+[19.589558] (-) TimerEvent: {}
+[19.690409] (-) TimerEvent: {}
+[19.791225] (-) TimerEvent: {}
+[19.892695] (-) TimerEvent: {}
+[19.993626] (-) TimerEvent: {}
+[20.095003] (-) TimerEvent: {}
+[20.196971] (-) TimerEvent: {}
+[20.298912] (-) TimerEvent: {}
+[20.400826] (-) TimerEvent: {}
+[20.505038] (-) TimerEvent: {}
+[20.605846] (-) TimerEvent: {}
+[20.706691] (-) TimerEvent: {}
+[20.817054] (-) TimerEvent: {}
+[20.917833] (-) TimerEvent: {}
+[21.018672] (-) TimerEvent: {}
+[21.129038] (-) TimerEvent: {}
+[21.229879] (-) TimerEvent: {}
+[21.330635] (-) TimerEvent: {}
+[21.431458] (-) TimerEvent: {}
+[21.545047] (-) TimerEvent: {}
+[21.645910] (-) TimerEvent: {}
+[21.749038] (-) TimerEvent: {}
+[21.849819] (-) TimerEvent: {}
+[21.951153] (-) TimerEvent: {}
+[22.052458] (-) TimerEvent: {}
+[22.157059] (-) TimerEvent: {}
+[22.261035] (-) TimerEvent: {}
+[22.365040] (-) TimerEvent: {}
+[22.469038] (-) TimerEvent: {}
+[22.569873] (-) TimerEvent: {}
+[22.671690] (-) TimerEvent: {}
+[22.774144] (-) TimerEvent: {}
+[22.875998] (-) TimerEvent: {}
+[22.977267] (-) TimerEvent: {}
+[23.079122] (-) TimerEvent: {}
+[23.180983] (-) TimerEvent: {}
+[23.282779] (-) TimerEvent: {}
+[23.383509] (-) TimerEvent: {}
+[23.484529] (-) TimerEvent: {}
+[23.585311] (-) TimerEvent: {}
+[23.687210] (-) TimerEvent: {}
+[23.789220] (-) TimerEvent: {}
+[23.811494] (rpm_speed_calc) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publishspeed.dir/build.make:76: CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o] Error 1\n'}
+[23.812213] (rpm_speed_calc) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publishspeed.dir/all] Error 2\n'}
+[23.812713] (rpm_speed_calc) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[23.889444] (-) TimerEvent: {}
+[23.990235] (-) TimerEvent: {}
+[24.091019] (-) TimerEvent: {}
+[24.191828] (-) TimerEvent: {}
+[24.292599] (-) TimerEvent: {}
+[24.393429] (-) TimerEvent: {}
+[24.494223] (-) TimerEvent: {}
+[24.595000] (-) TimerEvent: {}
+[24.695761] (-) TimerEvent: {}
+[24.796587] (-) TimerEvent: {}
+[24.897408] (-) TimerEvent: {}
+[24.998193] (-) TimerEvent: {}
+[25.099023] (-) TimerEvent: {}
+[25.199784] (-) TimerEvent: {}
+[25.300556] (-) TimerEvent: {}
+[25.401341] (-) TimerEvent: {}
+[25.502100] (-) TimerEvent: {}
+[25.602843] (-) TimerEvent: {}
+[25.703624] (-) TimerEvent: {}
+[25.804391] (-) TimerEvent: {}
+[25.905218] (-) TimerEvent: {}
+[26.005985] (-) TimerEvent: {}
+[26.106756] (-) TimerEvent: {}
+[26.207499] (-) TimerEvent: {}
+[26.308279] (-) TimerEvent: {}
+[26.409058] (-) TimerEvent: {}
+[26.509846] (-) TimerEvent: {}
+[26.610619] (-) TimerEvent: {}
+[26.711390] (-) TimerEvent: {}
+[26.812150] (-) TimerEvent: {}
+[26.912939] (-) TimerEvent: {}
+[27.013713] (-) TimerEvent: {}
+[27.114466] (-) TimerEvent: {}
+[27.215235] (-) TimerEvent: {}
+[27.315991] (-) TimerEvent: {}
+[27.416777] (-) TimerEvent: {}
+[27.517548] (-) TimerEvent: {}
+[27.618337] (-) TimerEvent: {}
+[27.719111] (-) TimerEvent: {}
+[27.819889] (-) TimerEvent: {}
+[27.920650] (-) TimerEvent: {}
+[28.021460] (-) TimerEvent: {}
+[28.122235] (-) TimerEvent: {}
+[28.223003] (-) TimerEvent: {}
+[28.323785] (-) TimerEvent: {}
+[28.424537] (-) TimerEvent: {}
+[28.525349] (-) TimerEvent: {}
+[28.626084] (-) TimerEvent: {}
+[28.726900] (-) TimerEvent: {}
+[28.829072] (-) TimerEvent: {}
+[28.929859] (-) TimerEvent: {}
+[29.030650] (-) TimerEvent: {}
+[29.131429] (-) TimerEvent: {}
+[29.232155] (-) TimerEvent: {}
+[29.332972] (-) TimerEvent: {}
+[29.433686] (-) TimerEvent: {}
+[29.446791] (rpm_speed_calc) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable publishrmp\x1b[0m\n'}
+[29.534084] (-) TimerEvent: {}
+[29.635952] (-) TimerEvent: {}
+[29.736942] (-) TimerEvent: {}
+[29.837771] (-) TimerEvent: {}
+[29.938618] (-) TimerEvent: {}
+[30.040075] (-) TimerEvent: {}
+[30.119739] (rpm_speed_calc) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] Error 1\n'}
+[30.120488] (rpm_speed_calc) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/subscriber.dir/all] Error 2\n'}
+[30.140322] (-) TimerEvent: {}
+[30.241151] (-) TimerEvent: {}
+[30.342479] (-) TimerEvent: {}
+[30.444604] (-) TimerEvent: {}
+[30.545552] (-) TimerEvent: {}
+[30.646368] (-) TimerEvent: {}
+[30.713649] (rpm_speed_calc) StdoutLine: {'line': b'[ 66%] Built target publishrmp\n'}
+[30.717670] (rpm_speed_calc) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.724845] (rpm_speed_calc) CommandEnded: {'returncode': 2}
+[30.746546] (-) TimerEvent: {}
+[30.848107] (-) TimerEvent: {}
+[30.926198] (rpm_speed_calc) JobEnded: {'identifier': 'rpm_speed_calc', 'rc': 2}
+[30.937980] (-) EventReactorShutdown: {}

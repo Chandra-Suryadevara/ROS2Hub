@@ -1,0 +1,15 @@
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In constructor ‘[01m[KSPEEDNODE::SPEEDNODE()[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_rpm[m[K’ is not a member of ‘[01m[KSPEEDNODE[m[K’
+   15 |             "RPM", 10, std::bind(&SPEEDNODE::[01;31m[Kget_rpm[m[K,this,std::placeholders::_1)
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:[m[K In member function ‘[01m[Kvoid SPEEDNODE::publish_rpm(const Float64&)[m[K’:
+[01m[K/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/src/publishspeed.cpp:27:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kconst Float64[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Float64_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   27 |                 speed = [32m[Kmsg[m[K[01;31m[K*[m[K[34m[K10[m[K;
+      |                         [32m[K~~~[m[K[01;31m[K^[m[K[34m[K~~[m[K
+      |                         [32m[K|[m[K   [34m[K|[m[K
+      |                         [32m[K|[m[K   [34m[Kint[m[K
+      |                         [32m[Kconst Float64 {aka const std_msgs::msg::Float64_<std::allocator<void> >}[m[K
+gmake[2]: *** [CMakeFiles/publishspeed.dir/build.make:76: CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publishspeed.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

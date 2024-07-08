@@ -1,0 +1,30 @@
+[0.049s] Invoking command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target publishspeed[0m
+[0.287s] [ 33%] Built target publishrmp
+[0.315s] [ 66%] Built target subscriber
+[0.330s] [ 83%] [32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o[0m
+[38.484s] [100%] [32m[1mLinking CXX executable publishspeed[0m
+[40.488s] [100%] Built target publishspeed
+[40.535s] Invoked command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc -- -j4 -l4
+[40.691s] Invoking command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc
+[40.723s] -- Install configuration: ""
+[40.725s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishrmp
+[40.728s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/subscriber
+[40.731s] -- Installing: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishspeed
+[40.757s] -- Set runtime path of "/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishspeed" to ""
+[40.760s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/package_run_dependencies/rpm_speed_calc
+[40.760s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/parent_prefix_path/rpm_speed_calc
+[40.761s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/ament_prefix_path.sh
+[40.761s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/ament_prefix_path.dsv
+[40.762s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/path.sh
+[40.762s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/path.dsv
+[40.766s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.bash
+[40.766s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.sh
+[40.767s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.zsh
+[40.768s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.dsv
+[40.769s] -- Installing: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/package.dsv
+[40.770s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/packages/rpm_speed_calc
+[40.770s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/cmake/rpm_speed_calcConfig.cmake
+[40.772s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/cmake/rpm_speed_calcConfig-version.cmake
+[40.774s] -- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/package.xml
+[40.775s] Invoked command in '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc

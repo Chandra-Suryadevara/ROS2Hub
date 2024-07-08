@@ -1,0 +1,8 @@
+source;share/rpm_speed_calc/hook/cmake_prefix_path.ps1
+source;share/rpm_speed_calc/hook/cmake_prefix_path.dsv
+source;share/rpm_speed_calc/hook/cmake_prefix_path.sh
+source;share/rpm_speed_calc/local_setup.bash
+source;share/rpm_speed_calc/local_setup.dsv
+source;share/rpm_speed_calc/local_setup.ps1
+source;share/rpm_speed_calc/local_setup.sh
+source;share/rpm_speed_calc/local_setup.zsh

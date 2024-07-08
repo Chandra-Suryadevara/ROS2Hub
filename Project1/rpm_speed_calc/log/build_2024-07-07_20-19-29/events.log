@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000622] (rpm_speed_calc) JobQueued: {'identifier': 'rpm_speed_calc', 'dependencies': OrderedDict()}
+[0.000783] (rpm_speed_calc) JobStarted: {'identifier': 'rpm_speed_calc'}
+[0.032492] (rpm_speed_calc) JobProgress: {'identifier': 'rpm_speed_calc', 'progress': 'cmake'}
+[0.036035] (rpm_speed_calc) JobProgress: {'identifier': 'rpm_speed_calc', 'progress': 'build'}
+[0.039246] (rpm_speed_calc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 54184 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces/first_project/src'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c157c8a7-1010-4070-99d4-af6aea3a6cce.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '30'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 54184 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096516] (-) TimerEvent: {}
+[0.197254] (-) TimerEvent: {}
+[0.200035] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publishrmp\x1b[0m\n'}
+[0.200712] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.234762] (rpm_speed_calc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publishspeed\x1b[0m\n'}
+[0.297434] (-) TimerEvent: {}
+[0.317072] (rpm_speed_calc) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/publishrmp.dir/src/publishrmp.cpp.o\x1b[0m\n'}
+[0.341145] (rpm_speed_calc) StdoutLine: {'line': b'[ 50%] Built target subscriber\n'}
+[0.361193] (rpm_speed_calc) StdoutLine: {'line': b'[ 83%] Built target publishspeed\n'}
+[0.397638] (-) TimerEvent: {}
+[0.498340] (-) TimerEvent: {}
+[0.599066] (-) TimerEvent: {}
+[0.699770] (-) TimerEvent: {}
+[0.800506] (-) TimerEvent: {}
+[0.901220] (-) TimerEvent: {}
+[1.001926] (-) TimerEvent: {}
+[1.102636] (-) TimerEvent: {}
+[1.203333] (-) TimerEvent: {}
+[1.304038] (-) TimerEvent: {}
+[1.404728] (-) TimerEvent: {}
+[1.505465] (-) TimerEvent: {}
+[1.606255] (-) TimerEvent: {}
+[1.707089] (-) TimerEvent: {}
+[1.807900] (-) TimerEvent: {}
+[1.908721] (-) TimerEvent: {}
+[2.009527] (-) TimerEvent: {}
+[2.110340] (-) TimerEvent: {}
+[2.211124] (-) TimerEvent: {}
+[2.311883] (-) TimerEvent: {}
+[2.412716] (-) TimerEvent: {}
+[2.513512] (-) TimerEvent: {}
+[2.614394] (-) TimerEvent: {}
+[2.715151] (-) TimerEvent: {}
+[2.815926] (-) TimerEvent: {}
+[2.916732] (-) TimerEvent: {}
+[3.017547] (-) TimerEvent: {}
+[3.118301] (-) TimerEvent: {}
+[3.219111] (-) TimerEvent: {}
+[3.319860] (-) TimerEvent: {}
+[3.420619] (-) TimerEvent: {}
+[3.521417] (-) TimerEvent: {}
+[3.622179] (-) TimerEvent: {}
+[3.722973] (-) TimerEvent: {}
+[3.823745] (-) TimerEvent: {}
+[3.924522] (-) TimerEvent: {}
+[4.025302] (-) TimerEvent: {}
+[4.126089] (-) TimerEvent: {}
+[4.226869] (-) TimerEvent: {}
+[4.327770] (-) TimerEvent: {}
+[4.428612] (-) TimerEvent: {}
+[4.529393] (-) TimerEvent: {}
+[4.630160] (-) TimerEvent: {}
+[4.731027] (-) TimerEvent: {}
+[4.831787] (-) TimerEvent: {}
+[4.932559] (-) TimerEvent: {}
+[5.033346] (-) TimerEvent: {}
+[5.134066] (-) TimerEvent: {}
+[5.234879] (-) TimerEvent: {}
+[5.335759] (-) TimerEvent: {}
+[5.436537] (-) TimerEvent: {}
+[5.537301] (-) TimerEvent: {}
+[5.638046] (-) TimerEvent: {}
+[5.738824] (-) TimerEvent: {}
+[5.839642] (-) TimerEvent: {}
+[5.940368] (-) TimerEvent: {}
+[6.041080] (-) TimerEvent: {}
+[6.141815] (-) TimerEvent: {}
+[6.242698] (-) TimerEvent: {}
+[6.344142] (-) TimerEvent: {}
+[6.444938] (-) TimerEvent: {}
+[6.545752] (-) TimerEvent: {}
+[6.646591] (-) TimerEvent: {}
+[6.747429] (-) TimerEvent: {}
+[6.848740] (-) TimerEvent: {}
+[6.949530] (-) TimerEvent: {}
+[7.050385] (-) TimerEvent: {}
+[7.151292] (-) TimerEvent: {}
+[7.252081] (-) TimerEvent: {}
+[7.352863] (-) TimerEvent: {}
+[7.453632] (-) TimerEvent: {}
+[7.554422] (-) TimerEvent: {}
+[7.655166] (-) TimerEvent: {}
+[7.755916] (-) TimerEvent: {}
+[7.856714] (-) TimerEvent: {}
+[7.957555] (-) TimerEvent: {}
+[8.058377] (-) TimerEvent: {}
+[8.159217] (-) TimerEvent: {}
+[8.259980] (-) TimerEvent: {}
+[8.360752] (-) TimerEvent: {}
+[8.461528] (-) TimerEvent: {}
+[8.562255] (-) TimerEvent: {}
+[8.663054] (-) TimerEvent: {}
+[8.763817] (-) TimerEvent: {}
+[8.864526] (-) TimerEvent: {}
+[8.965358] (-) TimerEvent: {}
+[9.066075] (-) TimerEvent: {}
+[9.166884] (-) TimerEvent: {}
+[9.267701] (-) TimerEvent: {}
+[9.368469] (-) TimerEvent: {}
+[9.469235] (-) TimerEvent: {}
+[9.570020] (-) TimerEvent: {}
+[9.670787] (-) TimerEvent: {}
+[9.771608] (-) TimerEvent: {}
+[9.872453] (-) TimerEvent: {}
+[9.973380] (-) TimerEvent: {}
+[10.074108] (-) TimerEvent: {}
+[10.174868] (-) TimerEvent: {}
+[10.275626] (-) TimerEvent: {}
+[10.376407] (-) TimerEvent: {}
+[10.477124] (-) TimerEvent: {}
+[10.577897] (-) TimerEvent: {}
+[10.678692] (-) TimerEvent: {}
+[10.779445] (-) TimerEvent: {}
+[10.880456] (-) TimerEvent: {}
+[10.981236] (-) TimerEvent: {}
+[11.082025] (-) TimerEvent: {}
+[11.182850] (-) TimerEvent: {}
+[11.283658] (-) TimerEvent: {}
+[11.384447] (-) TimerEvent: {}
+[11.485279] (-) TimerEvent: {}
+[11.586123] (-) TimerEvent: {}
+[11.687016] (-) TimerEvent: {}
+[11.787797] (-) TimerEvent: {}
+[11.888592] (-) TimerEvent: {}
+[11.989397] (-) TimerEvent: {}
+[12.090207] (-) TimerEvent: {}
+[12.191046] (-) TimerEvent: {}
+[12.291906] (-) TimerEvent: {}
+[12.392790] (-) TimerEvent: {}
+[12.493576] (-) TimerEvent: {}
+[12.594330] (-) TimerEvent: {}
+[12.695104] (-) TimerEvent: {}
+[12.795869] (-) TimerEvent: {}
+[12.896647] (-) TimerEvent: {}
+[12.997412] (-) TimerEvent: {}
+[13.098250] (-) TimerEvent: {}
+[13.199101] (-) TimerEvent: {}
+[13.299917] (-) TimerEvent: {}
+[13.400615] (-) TimerEvent: {}
+[13.501401] (-) TimerEvent: {}
+[13.602150] (-) TimerEvent: {}
+[13.702983] (-) TimerEvent: {}
+[13.803769] (-) TimerEvent: {}
+[13.904569] (-) TimerEvent: {}
+[14.005367] (-) TimerEvent: {}
+[14.106202] (-) TimerEvent: {}
+[14.207059] (-) TimerEvent: {}
+[14.307843] (-) TimerEvent: {}
+[14.408633] (-) TimerEvent: {}
+[14.509421] (-) TimerEvent: {}
+[14.610192] (-) TimerEvent: {}
+[14.710999] (-) TimerEvent: {}
+[14.811794] (-) TimerEvent: {}
+[14.912686] (-) TimerEvent: {}
+[15.013523] (-) TimerEvent: {}
+[15.114293] (-) TimerEvent: {}
+[15.215069] (-) TimerEvent: {}
+[15.315867] (-) TimerEvent: {}
+[15.416676] (-) TimerEvent: {}
+[15.517511] (-) TimerEvent: {}
+[15.618357] (-) TimerEvent: {}
+[15.719196] (-) TimerEvent: {}
+[15.820080] (-) TimerEvent: {}
+[15.920913] (-) TimerEvent: {}
+[16.021700] (-) TimerEvent: {}
+[16.122484] (-) TimerEvent: {}
+[16.223283] (-) TimerEvent: {}
+[16.324048] (-) TimerEvent: {}
+[16.424918] (-) TimerEvent: {}
+[16.525722] (-) TimerEvent: {}
+[16.626527] (-) TimerEvent: {}
+[16.727346] (-) TimerEvent: {}
+[16.828115] (-) TimerEvent: {}
+[16.928919] (-) TimerEvent: {}
+[17.029720] (-) TimerEvent: {}
+[17.130458] (-) TimerEvent: {}
+[17.231251] (-) TimerEvent: {}
+[17.332077] (-) TimerEvent: {}
+[17.432964] (-) TimerEvent: {}
+[17.533716] (-) TimerEvent: {}
+[17.634467] (-) TimerEvent: {}
+[17.735242] (-) TimerEvent: {}
+[17.836037] (-) TimerEvent: {}
+[17.936782] (-) TimerEvent: {}
+[18.037657] (-) TimerEvent: {}
+[18.139077] (-) TimerEvent: {}
+[18.239925] (-) TimerEvent: {}
+[18.340770] (-) TimerEvent: {}
+[18.441556] (-) TimerEvent: {}
+[18.542272] (-) TimerEvent: {}
+[18.643113] (-) TimerEvent: {}
+[18.743924] (-) TimerEvent: {}
+[18.844701] (-) TimerEvent: {}
+[18.945502] (-) TimerEvent: {}
+[19.046280] (-) TimerEvent: {}
+[19.147081] (-) TimerEvent: {}
+[19.247869] (-) TimerEvent: {}
+[19.348684] (-) TimerEvent: {}
+[19.449501] (-) TimerEvent: {}
+[19.550334] (-) TimerEvent: {}
+[19.651061] (-) TimerEvent: {}
+[19.751832] (-) TimerEvent: {}
+[19.852561] (-) TimerEvent: {}
+[19.953295] (-) TimerEvent: {}
+[20.053967] (-) TimerEvent: {}
+[20.154747] (-) TimerEvent: {}
+[20.255734] (-) TimerEvent: {}
+[20.356512] (-) TimerEvent: {}
+[20.400929] (rpm_speed_calc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publishrmp\x1b[0m\n'}
+[20.456741] (-) TimerEvent: {}
+[20.557530] (-) TimerEvent: {}
+[20.658288] (-) TimerEvent: {}
+[20.759452] (-) TimerEvent: {}
+[20.860222] (-) TimerEvent: {}
+[20.961243] (-) TimerEvent: {}
+[21.062944] (-) TimerEvent: {}
+[21.163760] (-) TimerEvent: {}
+[21.264497] (-) TimerEvent: {}
+[21.365308] (-) TimerEvent: {}
+[21.401514] (rpm_speed_calc) StdoutLine: {'line': b'[100%] Built target publishrmp\n'}
+[21.442554] (rpm_speed_calc) CommandEnded: {'returncode': 0}
+[21.465732] (-) TimerEvent: {}
+[21.566534] (-) TimerEvent: {}
+[21.584397] (rpm_speed_calc) JobProgress: {'identifier': 'rpm_speed_calc', 'progress': 'install'}
+[21.619550] (rpm_speed_calc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc'], 'cwd': '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 54184 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces/first_project/src'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c157c8a7-1010-4070-99d4-af6aea3a6cce.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '30'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/build/rpm_speed_calc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 54184 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.656154] (rpm_speed_calc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.657294] (rpm_speed_calc) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishrmp\n'}
+[21.665798] (rpm_speed_calc) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishrmp" to ""\n'}
+[21.666654] (-) TimerEvent: {}
+[21.667285] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/subscriber\n'}
+[21.668964] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/lib/rpm_speed_calc/publishspeed\n'}
+[21.669997] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/package_run_dependencies/rpm_speed_calc\n'}
+[21.670836] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/parent_prefix_path/rpm_speed_calc\n'}
+[21.673429] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/ament_prefix_path.sh\n'}
+[21.674169] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/ament_prefix_path.dsv\n'}
+[21.674670] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/path.sh\n'}
+[21.675211] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/environment/path.dsv\n'}
+[21.675705] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.bash\n'}
+[21.676181] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.sh\n'}
+[21.676656] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.zsh\n'}
+[21.677173] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/local_setup.dsv\n'}
+[21.677651] (rpm_speed_calc) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/package.dsv\n'}
+[21.678117] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/ament_index/resource_index/packages/rpm_speed_calc\n'}
+[21.678580] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/cmake/rpm_speed_calcConfig.cmake\n'}
+[21.679110] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/cmake/rpm_speed_calcConfig-version.cmake\n'}
+[21.679651] (rpm_speed_calc) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/first_project/src/rpm_speed_calc/install/rpm_speed_calc/share/rpm_speed_calc/package.xml\n'}
+[21.687106] (rpm_speed_calc) CommandEnded: {'returncode': 0}
+[21.766884] (-) TimerEvent: {}
+[21.868136] (-) TimerEvent: {}
+[21.891896] (rpm_speed_calc) JobEnded: {'identifier': 'rpm_speed_calc', 'rc': 0}
+[21.895928] (-) EventReactorShutdown: {}

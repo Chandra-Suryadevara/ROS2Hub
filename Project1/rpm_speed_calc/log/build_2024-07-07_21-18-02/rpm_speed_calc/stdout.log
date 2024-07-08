@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target publishspeed[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/publishrmp.dir/src/publishrmp.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publishspeed.dir/src/publishspeed.cpp.o[0m
