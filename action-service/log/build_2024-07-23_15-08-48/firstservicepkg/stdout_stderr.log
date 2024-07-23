@@ -1,0 +1,34 @@
+[  2%] Built target firstservicepkg__cpp
+[ 10%] Built target firstservicepkg__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_firstservicepkg
+[ 19%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[ 27%] Built target firstservicepkg__rosidl_typesupport_cpp
+[ 36%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[ 44%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[ 53%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[ 61%] Built target firstservicepkg__rosidl_typesupport_c
+[ 65%] Built target turn_camera_service
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 74%] Built target turn_camera_client
+[ 70%] Built target action_server
+[ 74%] Built target firstservicepkg
+[ 76%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 78%] Built target firstservicepkg__py
+[ 85%] Built target firstservicepkg__rosidl_generator_py
+[ 89%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target firstservicepkg__rosidl_typesupport_c__pyext
+running egg_info
+writing firstservicepkg.egg-info/PKG-INFO
+writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+writing top-level names to firstservicepkg.egg-info/top_level.txt
+reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_firstservicepkg_egg
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<firstservicepkg::action::Navigate>::WrappedResult&)[m[K’:
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelapsed_time[m[K’
+   99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelapsed_time[m[K << std::endl;
+      |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

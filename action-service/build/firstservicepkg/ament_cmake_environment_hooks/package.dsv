@@ -1,0 +1,4 @@
+source;share/firstservicepkg/local_setup.bash
+source;share/firstservicepkg/local_setup.dsv
+source;share/firstservicepkg/local_setup.sh
+source;share/firstservicepkg/local_setup.zsh

@@ -1,0 +1,8 @@
+# GOAL
+geometry_msgs/Point goal_point
+---
+#Result
+float32 time_taken
+---
+#FEEDBACK
+float32 distance_to_point

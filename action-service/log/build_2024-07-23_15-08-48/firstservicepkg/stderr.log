@@ -1,0 +1,7 @@
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<firstservicepkg::action::Navigate>::WrappedResult&)[m[K’:
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelapsed_time[m[K’
+   99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelapsed_time[m[K << std::endl;
+      |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

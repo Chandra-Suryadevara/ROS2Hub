@@ -1,0 +1,4 @@
+source;share/firstservicepkg/environment/ament_prefix_path.sh
+source;share/firstservicepkg/environment/library_path.sh
+source;share/firstservicepkg/environment/path.sh
+source;share/firstservicepkg/environment/pythonpath.sh

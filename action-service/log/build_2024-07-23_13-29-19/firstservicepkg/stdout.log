@@ -1,0 +1,26 @@
+[  8%] Built target firstservicepkg__rosidl_generator_c
+[ 11%] Built target firstservicepkg__cpp
+[ 11%] Built target ament_cmake_python_copy_firstservicepkg
+[ 20%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[ 28%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[ 37%] Built target firstservicepkg__rosidl_typesupport_c
+[ 46%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[ 55%] Built target firstservicepkg__rosidl_typesupport_cpp
+[ 64%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 68%] Built target turn_camera_client
+[ 73%] Built target turn_camera_service
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 75%] Built target firstservicepkg
+[ 77%] Built target firstservicepkg__py
+[ 84%] Built target firstservicepkg__rosidl_generator_py
+[ 88%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target firstservicepkg__rosidl_typesupport_c__pyext
+running egg_info
+writing firstservicepkg.egg-info/PKG-INFO
+writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+writing top-level names to firstservicepkg.egg-info/top_level.txt
+reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_firstservicepkg_egg

@@ -1,0 +1,7 @@
+{
+  "package_name": "firstservicepkg",
+  "non_idl_tuples": [
+    "/home/robot/ros_workspaces/project2/firstservicepkg:srv/TurnCamera.srv",
+    "/home/robot/ros_workspaces/project2/firstservicepkg:action/Navigate.action"
+  ]
+}

@@ -1,0 +1,36 @@
+[0.051s] Invoking command in '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg -- -j4 -l4
+[0.343s] [  2%] Built target firstservicepkg__cpp
+[0.429s] [ 10%] Built target firstservicepkg__rosidl_generator_c
+[0.465s] [ 10%] Built target ament_cmake_python_copy_firstservicepkg
+[0.494s] [ 19%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[0.551s] [ 27%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.651s] [ 36%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[0.670s] [ 44%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[0.717s] [ 53%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[0.748s] [ 61%] Built target firstservicepkg__rosidl_typesupport_c
+[0.948s] [ 65%] Built target turn_camera_service
+[1.071s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[1.072s] [ 74%] Built target turn_camera_client
+[1.076s] [ 70%] Built target action_server
+[1.209s] [ 74%] Built target firstservicepkg
+[1.259s] [ 76%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[1.425s] [ 78%] Built target firstservicepkg__py
+[1.600s] [ 85%] Built target firstservicepkg__rosidl_generator_py
+[1.825s] [ 89%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[1.827s] [ 93%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[2.058s] [ 97%] Built target firstservicepkg__rosidl_typesupport_c__pyext
+[2.604s] running egg_info
+[2.610s] writing firstservicepkg.egg-info/PKG-INFO
+[2.615s] writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+[2.616s] writing top-level names to firstservicepkg.egg-info/top_level.txt
+[2.628s] reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.633s] writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.772s] [ 97%] Built target ament_cmake_python_build_firstservicepkg_egg
+[15.407s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionClientNode::result_callback(const rclcpp_action::ClientGoalHandle<firstservicepkg::action::Navigate>::WrappedResult&)[m[K’:
+[15.407s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:99:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct firstservicepkg::action::Navigate_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kelapsed_time[m[K’
+[15.408s]    99 |         std::cout << "Time elapsed: " << result.result->[01;31m[Kelapsed_time[m[K << std::endl;
+[15.408s]       |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[18.724s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+[18.726s] gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/action_client.dir/all] Error 2
+[18.727s] gmake: *** [Makefile:146: all] Error 2
+[18.739s] Invoked command in '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg -- -j4 -l4

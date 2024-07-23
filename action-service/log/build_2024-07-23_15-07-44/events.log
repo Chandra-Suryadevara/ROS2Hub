@@ -1,0 +1,530 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (firstservicepkg) JobQueued: {'identifier': 'firstservicepkg', 'dependencies': OrderedDict()}
+[0.000724] (firstservicepkg) JobStarted: {'identifier': 'firstservicepkg'}
+[0.041169] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'cmake'}
+[0.045037] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'build'}
+[0.048143] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '142.66.76.33 36836 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robot/ros_workspaces/project2/firstservicepkg/install/firstservicepkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces/project2'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b2120c7d-6e73-4178-98ba-1247e83266df.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/robot/ros_workspaces/project2/firstservicepkg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '155'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a9f5cc3a84.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/robot/ros_workspaces/project2/firstservicepkg/install/firstservicepkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '142.66.76.33 36836 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/ros_workspaces/project2/firstservicepkg/install/firstservicepkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/ros_workspaces/project2/firstservicepkg/install/firstservicepkg:/opt/ros/humble')]), 'shell': False}
+[0.096145] (-) TimerEvent: {}
+[0.197313] (-) TimerEvent: {}
+[0.198429] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.297935] (-) TimerEvent: {}
+[0.398751] (-) TimerEvent: {}
+[0.499950] (-) TimerEvent: {}
+[0.601819] (-) TimerEvent: {}
+[0.702530] (-) TimerEvent: {}
+[0.803272] (-) TimerEvent: {}
+[0.811033] (firstservicepkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.903555] (-) TimerEvent: {}
+[0.976460] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.996773] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.003946] (-) TimerEvent: {}
+[1.041619] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.104652] (-) TimerEvent: {}
+[1.122073] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.204956] (-) TimerEvent: {}
+[1.224575] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305255] (-) TimerEvent: {}
+[1.406269] (-) TimerEvent: {}
+[1.507013] (-) TimerEvent: {}
+[1.567805] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.576229] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.607300] (-) TimerEvent: {}
+[1.707988] (-) TimerEvent: {}
+[1.808758] (-) TimerEvent: {}
+[1.909975] (-) TimerEvent: {}
+[2.011784] (-) TimerEvent: {}
+[2.078848] (firstservicepkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.111985] (-) TimerEvent: {}
+[2.212777] (-) TimerEvent: {}
+[2.313553] (-) TimerEvent: {}
+[2.414283] (-) TimerEvent: {}
+[2.514981] (-) TimerEvent: {}
+[2.615689] (-) TimerEvent: {}
+[2.716371] (-) TimerEvent: {}
+[2.817137] (-) TimerEvent: {}
+[2.917894] (-) TimerEvent: {}
+[2.968472] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.010790] (firstservicepkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.018117] (-) TimerEvent: {}
+[3.118833] (-) TimerEvent: {}
+[3.219537] (-) TimerEvent: {}
+[3.320265] (-) TimerEvent: {}
+[3.421948] (-) TimerEvent: {}
+[3.522721] (-) TimerEvent: {}
+[3.623483] (-) TimerEvent: {}
+[3.722819] (firstservicepkg) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[3.723462] (-) TimerEvent: {}
+[3.824194] (-) TimerEvent: {}
+[3.924962] (-) TimerEvent: {}
+[4.025767] (-) TimerEvent: {}
+[4.081661] (firstservicepkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.125949] (-) TimerEvent: {}
+[4.130729] (firstservicepkg) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.226127] (-) TimerEvent: {}
+[4.326867] (-) TimerEvent: {}
+[4.427619] (-) TimerEvent: {}
+[4.528429] (-) TimerEvent: {}
+[4.629280] (-) TimerEvent: {}
+[4.730149] (-) TimerEvent: {}
+[4.830892] (-) TimerEvent: {}
+[4.931671] (-) TimerEvent: {}
+[5.032423] (-) TimerEvent: {}
+[5.133207] (-) TimerEvent: {}
+[5.233984] (-) TimerEvent: {}
+[5.334673] (-) TimerEvent: {}
+[5.435373] (-) TimerEvent: {}
+[5.536192] (-) TimerEvent: {}
+[5.636896] (-) TimerEvent: {}
+[5.737725] (-) TimerEvent: {}
+[5.838750] (-) TimerEvent: {}
+[5.940125] (-) TimerEvent: {}
+[5.955156] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[5.960967] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[5.965820] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[5.973276] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.040418] (-) TimerEvent: {}
+[6.141465] (-) TimerEvent: {}
+[6.242209] (-) TimerEvent: {}
+[6.343041] (-) TimerEvent: {}
+[6.443823] (-) TimerEvent: {}
+[6.544599] (-) TimerEvent: {}
+[6.645583] (-) TimerEvent: {}
+[6.746489] (-) TimerEvent: {}
+[6.847338] (-) TimerEvent: {}
+[6.948102] (-) TimerEvent: {}
+[7.048860] (-) TimerEvent: {}
+[7.149599] (-) TimerEvent: {}
+[7.250338] (-) TimerEvent: {}
+[7.351078] (-) TimerEvent: {}
+[7.451998] (-) TimerEvent: {}
+[7.552768] (-) TimerEvent: {}
+[7.653597] (-) TimerEvent: {}
+[7.754402] (-) TimerEvent: {}
+[7.855181] (-) TimerEvent: {}
+[7.955899] (-) TimerEvent: {}
+[8.058228] (-) TimerEvent: {}
+[8.159018] (-) TimerEvent: {}
+[8.259817] (-) TimerEvent: {}
+[8.360586] (-) TimerEvent: {}
+[8.461358] (-) TimerEvent: {}
+[8.561687] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.563848] (-) TimerEvent: {}
+[8.665280] (-) TimerEvent: {}
+[8.766034] (-) TimerEvent: {}
+[8.866788] (-) TimerEvent: {}
+[8.967558] (-) TimerEvent: {}
+[9.068287] (-) TimerEvent: {}
+[9.169637] (-) TimerEvent: {}
+[9.270387] (-) TimerEvent: {}
+[9.371075] (-) TimerEvent: {}
+[9.471790] (-) TimerEvent: {}
+[9.568302] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.571996] (-) TimerEvent: {}
+[9.672740] (-) TimerEvent: {}
+[9.683027] (firstservicepkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.773018] (-) TimerEvent: {}
+[9.792558] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.793352] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.793892] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.873320] (-) TimerEvent: {}
+[9.974096] (-) TimerEvent: {}
+[10.075011] (-) TimerEvent: {}
+[10.162288] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[10.167102] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[10.175332] (-) TimerEvent: {}
+[10.249251] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.275584] (-) TimerEvent: {}
+[10.376241] (-) TimerEvent: {}
+[10.476954] (-) TimerEvent: {}
+[10.564405] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.570706] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_generator_c>;$<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_typesupport_introspection_cpp>;/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_generator_c;/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg/rosidl_generator_py\n'}
+[10.571384] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.577204] (-) TimerEvent: {}
+[10.677999] (-) TimerEvent: {}
+[10.778751] (-) TimerEvent: {}
+[10.798789] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.799377] (firstservicepkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.879199] (-) TimerEvent: {}
+[10.980072] (-) TimerEvent: {}
+[11.024788] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.025736] (firstservicepkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.056218] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.080293] (-) TimerEvent: {}
+[11.087016] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.144005] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.174286] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.180788] (-) TimerEvent: {}
+[11.188632] (firstservicepkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.281000] (-) TimerEvent: {}
+[11.381717] (-) TimerEvent: {}
+[11.482508] (-) TimerEvent: {}
+[11.580213] (firstservicepkg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.582673] (-) TimerEvent: {}
+[11.606373] (firstservicepkg) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg\n'}
+[11.682879] (-) TimerEvent: {}
+[11.782505] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c\x1b[0m\n'}
+[11.783147] (-) TimerEvent: {}
+[11.819386] (firstservicepkg) StdoutLine: {'line': b'[  2%] Built target firstservicepkg__cpp\n'}
+[11.882199] (firstservicepkg) StdoutLine: {'line': b'[ 10%] Built target firstservicepkg__rosidl_generator_c\n'}
+[11.883321] (-) TimerEvent: {}
+[11.907500] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[11.953013] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.965523] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.989580] (-) TimerEvent: {}
+[11.991595] (firstservicepkg) StdoutLine: {'line': b'[ 19%] Built target firstservicepkg__rosidl_typesupport_cpp\n'}
+[12.057950] (firstservicepkg) StdoutLine: {'line': b'[ 27%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp\n'}
+[12.076607] (firstservicepkg) StdoutLine: {'line': b'[ 36%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp\n'}
+[12.080525] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[12.103723] (-) TimerEvent: {}
+[12.155981] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.205583] (-) TimerEvent: {}
+[12.207468] (firstservicepkg) StdoutLine: {'line': b'[ 44%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c\n'}
+[12.233753] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c\x1b[0m\n'}
+[12.241749] (firstservicepkg) StdoutLine: {'line': b'[ 44%] Built target ament_cmake_python_copy_firstservicepkg\n'}
+[12.293737] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_service\x1b[0m\n'}
+[12.309629] (-) TimerEvent: {}
+[12.326886] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_client\x1b[0m\n'}
+[12.358764] (firstservicepkg) StdoutLine: {'line': b'[ 53%] Built target firstservicepkg__rosidl_typesupport_introspection_c\n'}
+[12.386605] (firstservicepkg) StdoutLine: {'line': b'[ 61%] Built target firstservicepkg__rosidl_typesupport_c\n'}
+[12.413711] (-) TimerEvent: {}
+[12.477600] (firstservicepkg) StdoutLine: {'line': b'[ 65%] Built target turn_camera_client\n'}
+[12.478196] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[12.513901] (-) TimerEvent: {}
+[12.520209] (firstservicepkg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[12.539637] (firstservicepkg) StdoutLine: {'line': b'[ 72%] Built target turn_camera_service\n'}
+[12.613748] (firstservicepkg) StdoutLine: {'line': b'[ 72%] Built target firstservicepkg\n'}
+[12.614386] (-) TimerEvent: {}
+[12.697846] (firstservicepkg) StdoutLine: {'line': b'[ 76%] Built target action_server\n'}
+[12.714601] (-) TimerEvent: {}
+[12.817677] (-) TimerEvent: {}
+[12.855869] (firstservicepkg) StdoutLine: {'line': b'[ 78%] Built target firstservicepkg__py\n'}
+[12.917854] (-) TimerEvent: {}
+[12.973598] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_py\x1b[0m\n'}
+[13.018135] (-) TimerEvent: {}
+[13.097599] (firstservicepkg) StdoutLine: {'line': b'[ 85%] Built target firstservicepkg__rosidl_generator_py\n'}
+[13.121601] (-) TimerEvent: {}
+[13.222271] (-) TimerEvent: {}
+[13.225734] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.250529] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.322434] (-) TimerEvent: {}
+[13.357726] (firstservicepkg) StdoutLine: {'line': b'[ 89%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext\n'}
+[13.426086] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.426721] (-) TimerEvent: {}
+[13.427215] (firstservicepkg) StdoutLine: {'line': b'[ 93%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.526913] (-) TimerEvent: {}
+[13.557744] (firstservicepkg) StdoutLine: {'line': b'[ 97%] Built target firstservicepkg__rosidl_typesupport_c__pyext\n'}
+[13.630317] (-) TimerEvent: {}
+[13.731081] (-) TimerEvent: {}
+[13.835946] (-) TimerEvent: {}
+[13.936708] (-) TimerEvent: {}
+[14.037510] (-) TimerEvent: {}
+[14.143026] (-) TimerEvent: {}
+[14.227511] (firstservicepkg) StdoutLine: {'line': b'running egg_info\n'}
+[14.233920] (firstservicepkg) StdoutLine: {'line': b'writing firstservicepkg.egg-info/PKG-INFO\n'}
+[14.234546] (firstservicepkg) StdoutLine: {'line': b'writing dependency_links to firstservicepkg.egg-info/dependency_links.txt\n'}
+[14.234946] (firstservicepkg) StdoutLine: {'line': b'writing top-level names to firstservicepkg.egg-info/top_level.txt\n'}
+[14.243245] (-) TimerEvent: {}
+[14.249749] (firstservicepkg) StdoutLine: {'line': b"reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[14.257364] (firstservicepkg) StdoutLine: {'line': b"writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[14.343450] (-) TimerEvent: {}
+[14.384379] (firstservicepkg) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_firstservicepkg_egg\n'}
+[14.443719] (-) TimerEvent: {}
+[14.544845] (-) TimerEvent: {}
+[14.646215] (-) TimerEvent: {}
+[14.746915] (-) TimerEvent: {}
+[14.847672] (-) TimerEvent: {}
+[14.948691] (-) TimerEvent: {}
+[15.049578] (-) TimerEvent: {}
+[15.150596] (-) TimerEvent: {}
+[15.251389] (-) TimerEvent: {}
+[15.352109] (-) TimerEvent: {}
+[15.452881] (-) TimerEvent: {}
+[15.554013] (-) TimerEvent: {}
+[15.654795] (-) TimerEvent: {}
+[15.755600] (-) TimerEvent: {}
+[15.856332] (-) TimerEvent: {}
+[15.957106] (-) TimerEvent: {}
+[16.057859] (-) TimerEvent: {}
+[16.158589] (-) TimerEvent: {}
+[16.259284] (-) TimerEvent: {}
+[16.360033] (-) TimerEvent: {}
+[16.460795] (-) TimerEvent: {}
+[16.561588] (-) TimerEvent: {}
+[16.662325] (-) TimerEvent: {}
+[16.763052] (-) TimerEvent: {}
+[16.863799] (-) TimerEvent: {}
+[16.964548] (-) TimerEvent: {}
+[17.065319] (-) TimerEvent: {}
+[17.166135] (-) TimerEvent: {}
+[17.266880] (-) TimerEvent: {}
+[17.367652] (-) TimerEvent: {}
+[17.468377] (-) TimerEvent: {}
+[17.569139] (-) TimerEvent: {}
+[17.669944] (-) TimerEvent: {}
+[17.770691] (-) TimerEvent: {}
+[17.871427] (-) TimerEvent: {}
+[17.972212] (-) TimerEvent: {}
+[18.072954] (-) TimerEvent: {}
+[18.173777] (-) TimerEvent: {}
+[18.274492] (-) TimerEvent: {}
+[18.375232] (-) TimerEvent: {}
+[18.475936] (-) TimerEvent: {}
+[18.576689] (-) TimerEvent: {}
+[18.677509] (-) TimerEvent: {}
+[18.778251] (-) TimerEvent: {}
+[18.878968] (-) TimerEvent: {}
+[18.979738] (-) TimerEvent: {}
+[19.080490] (-) TimerEvent: {}
+[19.181267] (-) TimerEvent: {}
+[19.282023] (-) TimerEvent: {}
+[19.382779] (-) TimerEvent: {}
+[19.483502] (-) TimerEvent: {}
+[19.584231] (-) TimerEvent: {}
+[19.685586] (-) TimerEvent: {}
+[19.786318] (-) TimerEvent: {}
+[19.887072] (-) TimerEvent: {}
+[19.987888] (-) TimerEvent: {}
+[20.088670] (-) TimerEvent: {}
+[20.189510] (-) TimerEvent: {}
+[20.290325] (-) TimerEvent: {}
+[20.391186] (-) TimerEvent: {}
+[20.492120] (-) TimerEvent: {}
+[20.592916] (-) TimerEvent: {}
+[20.693649] (-) TimerEvent: {}
+[20.794465] (-) TimerEvent: {}
+[20.895188] (-) TimerEvent: {}
+[20.996006] (-) TimerEvent: {}
+[21.096828] (-) TimerEvent: {}
+[21.197632] (-) TimerEvent: {}
+[21.298399] (-) TimerEvent: {}
+[21.399275] (-) TimerEvent: {}
+[21.500092] (-) TimerEvent: {}
+[21.600885] (-) TimerEvent: {}
+[21.701705] (-) TimerEvent: {}
+[21.802480] (-) TimerEvent: {}
+[21.903305] (-) TimerEvent: {}
+[22.004089] (-) TimerEvent: {}
+[22.104980] (-) TimerEvent: {}
+[22.205780] (-) TimerEvent: {}
+[22.306560] (-) TimerEvent: {}
+[22.407361] (-) TimerEvent: {}
+[22.508136] (-) TimerEvent: {}
+[22.608921] (-) TimerEvent: {}
+[22.709692] (-) TimerEvent: {}
+[22.810532] (-) TimerEvent: {}
+[22.911381] (-) TimerEvent: {}
+[23.012230] (-) TimerEvent: {}
+[23.113036] (-) TimerEvent: {}
+[23.213807] (-) TimerEvent: {}
+[23.314582] (-) TimerEvent: {}
+[23.415358] (-) TimerEvent: {}
+[23.516121] (-) TimerEvent: {}
+[23.616882] (-) TimerEvent: {}
+[23.717700] (-) TimerEvent: {}
+[23.818513] (-) TimerEvent: {}
+[23.919356] (-) TimerEvent: {}
+[24.020158] (-) TimerEvent: {}
+[24.120962] (-) TimerEvent: {}
+[24.221761] (-) TimerEvent: {}
+[24.322530] (-) TimerEvent: {}
+[24.423335] (-) TimerEvent: {}
+[24.524176] (-) TimerEvent: {}
+[24.625199] (-) TimerEvent: {}
+[24.726167] (-) TimerEvent: {}
+[24.826953] (-) TimerEvent: {}
+[24.927746] (-) TimerEvent: {}
+[25.028647] (-) TimerEvent: {}
+[25.129579] (-) TimerEvent: {}
+[25.230441] (-) TimerEvent: {}
+[25.331226] (-) TimerEvent: {}
+[25.432006] (-) TimerEvent: {}
+[25.525923] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:7:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kudemy_ros2_pkg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[25.526807] (firstservicepkg) StderrLine: {'line': b'    7 | typedef \x1b[01;31m\x1b[Kudemy_ros2_pkg\x1b[m\x1b[K::action::Navigate NavigateAction;\n'}
+[25.527377] (firstservicepkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.532218] (-) TimerEvent: {}
+[25.547399] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:8:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateAction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.548111] (firstservicepkg) StderrLine: {'line': b'    8 | typedef rclcpp_action::ClientGoalHandle<\x1b[01;31m\x1b[KNavigateAction\x1b[m\x1b[K> GoalHandle;\n'}
+[25.548703] (firstservicepkg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.549509] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:8:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[25.550027] (firstservicepkg) StderrLine: {'line': b'    8 | typedef rclcpp_action::ClientGoalHandle<NavigateAction\x1b[01;31m\x1b[K>\x1b[m\x1b[K GoalHandle;\n'}
+[25.550488] (firstservicepkg) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.579550] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateAction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.580211] (firstservicepkg) StderrLine: {'line': b'   32 |   rclcpp_action::Client<\x1b[01;31m\x1b[KNavigateAction\x1b[m\x1b[K>::SharedPtr action_client_;\n'}
+[25.580683] (firstservicepkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.581118] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:32:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[25.581577] (firstservicepkg) StderrLine: {'line': b'   32 |   rclcpp_action::Client<NavigateAction\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr action_client_;\n'}
+[25.581946] (firstservicepkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.585573] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:32:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[25.586165] (firstservicepkg) StderrLine: {'line': b'   32 |   rclcpp_action::Client<NavigateAction>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K action_client_;\n'}
+[25.586597] (firstservicepkg) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[25.587004] (firstservicepkg) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[25.591434] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:32:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_client_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.592102] (firstservicepkg) StderrLine: {'line': b'   32 |   rclcpp_action::Client<NavigateAction>::SharedPtr \x1b[01;31m\x1b[Kaction_client_\x1b[m\x1b[K;\n'}
+[25.592585] (firstservicepkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.593042] (firstservicepkg) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[Krcl_action_client_t\x1b[m\x1b[K\n'}
+[25.595286] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:75:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandle\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[25.595906] (firstservicepkg) StderrLine: {'line': b'   75 |   void goal_response_callback(\x1b[01;31m\x1b[KGoalHandle\x1b[m\x1b[K::SharedPtr future)\n'}
+[25.596319] (firstservicepkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.596742] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:75:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.597207] (firstservicepkg) StderrLine: {'line': b'   75 |   void goal_response_callback(GoalHandle::SharedPtr \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K)\n'}
+[25.597718] (firstservicepkg) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.598174] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:88:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGoalHandle\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[25.598636] (firstservicepkg) StderrLine: {'line': b'   88 |     \x1b[01;31m\x1b[KGoalHandle\x1b[m\x1b[K::SharedPtr future,\n'}
+[25.599079] (firstservicepkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.599534] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:88:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.599994] (firstservicepkg) StderrLine: {'line': b'   88 |     GoalHandle::SharedPtr \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K,\n'}
+[25.600433] (firstservicepkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.606131] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:95:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[25.606589] (firstservicepkg) StderrLine: {'line': b'   95 |   void result_callback(const GoalHandle::WrappedResult \x1b[01;31m\x1b[K&\x1b[m\x1b[K result)\n'}
+[25.607067] (firstservicepkg) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.607487] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:95:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[25.607905] (firstservicepkg) StderrLine: {'line': b'   95 |   void result_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst GoalHandle::WrappedResult\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[K result)\n'}
+[25.608439] (firstservicepkg) StderrLine: {'line': b'      |                       \x1b[34m\x1b[K~\x1b[m\x1b[K                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[25.609018] (firstservicepkg) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[25.609549] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:95:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[25.610007] (firstservicepkg) StderrLine: {'line': b'   95 |   void result_callback(const GoalHandle::WrappedResult \x1b[01;31m\x1b[K&\x1b[m\x1b[K result)\n'}
+[25.610456] (firstservicepkg) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.610956] (firstservicepkg) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[25.611428] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:95:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[25.611835] (firstservicepkg) StderrLine: {'line': b'   95 |   void result_callback(const GoalHandle::WrappedResult & \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K)\n'}
+[25.612179] (firstservicepkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.632412] (-) TimerEvent: {}
+[25.635486] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNavigateActionClientNode::NavigateActionClientNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.636194] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.636762] (firstservicepkg) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kaction_client_\x1b[m\x1b[K = rclcpp_action::create_client<NavigateAction>(\n'}
+[25.637248] (firstservicepkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.637704] (firstservicepkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_action_client_t\x1b[m\x1b[K\n'}
+[25.667753] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:17:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateAction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.668400] (firstservicepkg) StderrLine: {'line': b'   17 |     action_client_ = rclcpp_action::create_client<\x1b[01;31m\x1b[KNavigateAction\x1b[m\x1b[K>(\n'}
+[25.668928] (firstservicepkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.670676] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:17:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_client<<expression error> >(NavigateActionClientNode*, const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.671494] (firstservicepkg) StderrLine: {'line': b'   17 |     action_client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<NavigateAction>(\x1b[m\x1b[K\n'}
+[25.672007] (firstservicepkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[25.672704] (firstservicepkg) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[25.673297] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                       \n'}
+[25.673899] (firstservicepkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K      "navigate")\x1b[m\x1b[K;\n'}
+[25.674531] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                                                 \n'}
+[25.675066] (firstservicepkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[25.675550] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:2\x1b[m\x1b[K:\n'}
+[25.675944] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.676489] (firstservicepkg) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[25.676952] (firstservicepkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.677395] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[25.677939] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:17:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[25.678354] (firstservicepkg) StderrLine: {'line': b'   17 |     action_client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<NavigateAction>(\x1b[m\x1b[K\n'}
+[25.678780] (firstservicepkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[25.679181] (firstservicepkg) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[25.679622] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                       \n'}
+[25.680069] (firstservicepkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K      "navigate")\x1b[m\x1b[K;\n'}
+[25.680462] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                                                 \n'}
+[25.680884] (firstservicepkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[25.681295] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:2\x1b[m\x1b[K:\n'}
+[25.689988] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.690549] (firstservicepkg) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[25.691026] (firstservicepkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.691526] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[25.691971] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:17:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[25.692371] (firstservicepkg) StderrLine: {'line': b'   17 |     action_client_ = \x1b[01;31m\x1b[Krclcpp_action::create_client<NavigateAction>(\x1b[m\x1b[K\n'}
+[25.692776] (firstservicepkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[25.693174] (firstservicepkg) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K      this,\x1b[m\x1b[K\n'}
+[25.693661] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                       \n'}
+[25.694176] (firstservicepkg) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K      "navigate")\x1b[m\x1b[K;\n'}
+[25.694594] (firstservicepkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K                                                 \n'}
+[25.694995] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NavigateActionClientNode::prompt_user_for_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.695415] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:46:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateAction\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[25.695826] (firstservicepkg) StderrLine: {'line': b'   46 |     auto goal_msg = \x1b[01;31m\x1b[KNavigateAction\x1b[m\x1b[K::Goal();\n'}
+[25.696343] (firstservicepkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.696861] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:58:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass NavigateActionClientNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kaction_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.697306] (firstservicepkg) StderrLine: {'line': b'   58 |     this->\x1b[01;31m\x1b[Kaction_client_\x1b[m\x1b[K->wait_for_action_server();\n'}
+[25.697723] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.709708] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:63:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateAction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.710331] (firstservicepkg) StderrLine: {'line': b'   63 |     auto send_goal_options = rclcpp_action::Client<\x1b[01;31m\x1b[KNavigateAction\x1b[m\x1b[K>::SendGoalOptions();\n'}
+[25.710839] (firstservicepkg) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.711636] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:63:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[25.712212] (firstservicepkg) StderrLine: {'line': b'   63 |     auto send_goal_options = rclcpp_action::Client<NavigateAction\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SendGoalOptions();\n'}
+[25.712711] (firstservicepkg) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[25.732613] (-) TimerEvent: {}
+[25.735561] (firstservicepkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[25.736197] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[25.736715] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[25.737199] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[25.737741] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[25.738236] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[25.738763] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:1\x1b[m\x1b[K:\n'}
+[25.739226] (firstservicepkg) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (NavigateActionClientNode::*)(int), NavigateActionClientNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.739690] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (NavigateActionClientNode::*)(int), NavigateActionClientNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.740186] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (NavigateActionClientNode::*)(int); _BoundArgs = {NavigateActionClientNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.740668] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:68:16:\x1b[m\x1b[K   required from here\n'}
+[25.741170] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[25.744544] (firstservicepkg) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[25.745082] (firstservicepkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[25.745611] (firstservicepkg) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[25.746108] (firstservicepkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.746569] (firstservicepkg) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[25.747025] (firstservicepkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.747480] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (3 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (3 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[25.769271] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:72:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass NavigateActionClientNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kaction_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[25.770129] (firstservicepkg) StderrLine: {'line': b'   72 |     this->\x1b[01;31m\x1b[Kaction_client_\x1b[m\x1b[K->async_send_goal(goal_msg, send_goal_options);\n'}
+[25.770692] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.771908] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NavigateActionClientNode::goal_response_callback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.772472] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:77:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.773057] (firstservicepkg) StderrLine: {'line': b'   77 |     auto goal_handle = \x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K.get();\n'}
+[25.773897] (firstservicepkg) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.774577] (firstservicepkg) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kstd::future\x1b[m\x1b[K\n'}
+[25.775131] (firstservicepkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[25.782318] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[25.782764] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:1\x1b[m\x1b[K:\n'}
+[25.783181] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/future:124:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[25.783681] (firstservicepkg) StderrLine: {'line': b'  124 |     class \x1b[01;36m\x1b[Kfuture\x1b[m\x1b[K;\n'}
+[25.784683] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.785075] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:75:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.785565] (firstservicepkg) StderrLine: {'line': b'   75 |   void goal_response_callback(\x1b[01;35m\x1b[KGoalHandle::SharedPtr\x1b[m\x1b[K future)\n'}
+[25.785951] (firstservicepkg) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[25.786440] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NavigateActionClientNode::feedback_callback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.786845] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:91:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[25.787199] (firstservicepkg) StderrLine: {'line': b'   91 |     (void)\x1b[01;31m\x1b[Kfuture\x1b[m\x1b[K; // Not using right now\n'}
+[25.787611] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.788032] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kstd::future\x1b[m\x1b[K\n'}
+[25.788470] (firstservicepkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[25.788919] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[25.789368] (firstservicepkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:1\x1b[m\x1b[K:\n'}
+[25.789912] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/future:124:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::future\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[25.790329] (firstservicepkg) StderrLine: {'line': b'  124 |     class \x1b[01;36m\x1b[Kfuture\x1b[m\x1b[K;\n'}
+[25.790735] (firstservicepkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.801933] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:92:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[25.802609] (firstservicepkg) StderrLine: {'line': b'   92 |     std::cout << "Feedback: " << \x1b[01;31m\x1b[Kfeedback\x1b[m\x1b[K->distance_to_point << std::endl;\n'}
+[25.803104] (firstservicepkg) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[25.803832] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_client.cpp:88:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.804376] (firstservicepkg) StderrLine: {'line': b'   88 |     \x1b[01;35m\x1b[KGoalHandle::SharedPtr\x1b[m\x1b[K future,\n'}
+[25.804867] (firstservicepkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[25.832820] (-) TimerEvent: {}
+[25.933672] (-) TimerEvent: {}
+[26.034454] (-) TimerEvent: {}
+[26.135297] (-) TimerEvent: {}
+[26.236122] (-) TimerEvent: {}
+[26.336951] (-) TimerEvent: {}
+[26.437743] (-) TimerEvent: {}
+[26.538612] (-) TimerEvent: {}
+[26.639404] (-) TimerEvent: {}
+[26.740200] (-) TimerEvent: {}
+[26.840961] (-) TimerEvent: {}
+[26.941751] (-) TimerEvent: {}
+[27.042544] (-) TimerEvent: {}
+[27.143330] (-) TimerEvent: {}
+[27.244163] (-) TimerEvent: {}
+[27.345010] (-) TimerEvent: {}
+[27.445776] (-) TimerEvent: {}
+[27.546544] (-) TimerEvent: {}
+[27.647321] (-) TimerEvent: {}
+[27.748093] (-) TimerEvent: {}
+[27.847691] (firstservicepkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1\n'}
+[27.848563] (-) TimerEvent: {}
+[27.848981] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/action_client.dir/all] Error 2\n'}
+[27.851496] (firstservicepkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[27.858642] (firstservicepkg) CommandEnded: {'returncode': 2}
+[27.948740] (-) TimerEvent: {}
+[28.050325] (-) TimerEvent: {}
+[28.151587] (-) TimerEvent: {}
+[28.252873] (-) TimerEvent: {}
+[28.332995] (firstservicepkg) JobEnded: {'identifier': 'firstservicepkg', 'rc': 2}
+[28.346699] (-) EventReactorShutdown: {}

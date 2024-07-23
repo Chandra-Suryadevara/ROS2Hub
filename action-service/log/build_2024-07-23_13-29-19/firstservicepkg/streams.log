@@ -1,0 +1,67 @@
+[0.047s] Invoking command in '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg -- -j4 -l4
+[0.270s] [  8%] Built target firstservicepkg__rosidl_generator_c
+[0.292s] [ 11%] Built target firstservicepkg__cpp
+[0.342s] [ 11%] Built target ament_cmake_python_copy_firstservicepkg
+[0.389s] [ 20%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[0.416s] [ 28%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[0.459s] [ 37%] Built target firstservicepkg__rosidl_typesupport_c
+[0.498s] [ 46%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[0.563s] [ 55%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.591s] [ 64%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[0.649s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.727s] [ 68%] Built target turn_camera_client
+[0.763s] [ 73%] Built target turn_camera_service
+[0.773s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[0.903s] [ 75%] Built target firstservicepkg
+[1.148s] [ 77%] Built target firstservicepkg__py
+[1.251s] [ 84%] Built target firstservicepkg__rosidl_generator_py
+[1.420s] [ 88%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[1.477s] [ 93%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[1.532s] [ 97%] Built target firstservicepkg__rosidl_typesupport_c__pyext
+[1.992s] running egg_info
+[1.996s] writing firstservicepkg.egg-info/PKG-INFO
+[1.997s] writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+[1.999s] writing top-level names to firstservicepkg.egg-info/top_level.txt
+[2.013s] reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.018s] writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.167s] [ 97%] Built target ament_cmake_python_build_firstservicepkg_egg
+[13.149s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse NavigateActionServerNode::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<firstservicepkg::action::Navigate> >)[m[K’:
+[13.150s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:34:25:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[13.150s]    34 |                     void[01;35m[K(goal_handle)[m[K;
+[13.151s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[13.152s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:34:25:[m[K [01;36m[Knote: [m[Kremove parentheses
+[13.152s]    34 |                     void[01;36m[K(goal_handle)[m[K;
+[13.153s]       |                         [01;36m[K^~~~~~~~~~~~~[m[K
+[13.153s]       |                         [31m[K-[m[K           [31m[K-[m[K
+[13.154s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:34:26:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kgoal_handle[m[K’ declared void
+[13.155s]    34 |                     void([01;31m[Kgoal_handle[m[K);
+[13.155s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[13.156s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:33:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.156s]    33 |                 [01;35m[Kconst std::shared_ptr<GoalHandle> goal_handle[m[K){
+[13.157s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[13.184s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:[m[K In member function ‘[01m[Kvoid NavigateActionServerNode::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<firstservicepkg::action::Navigate> >)[m[K’:
+[13.184s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NavigateActionServerNode[m[K’ has no member named ‘[01m[Krobot_position_[m[K’; did you mean ‘[01m[Krobot_position[m[K’?
+[13.185s]    50 |           std::pow(this->[01;31m[Krobot_position_[m[K.x - goal->goal_point.x, 2) +
+[13.185s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.186s]       |                          [32m[Krobot_position[m[K
+[13.187s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:51:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NavigateActionServerNode[m[K’ has no member named ‘[01m[Krobot_position_[m[K’; did you mean ‘[01m[Krobot_position[m[K’?
+[13.188s]    51 |           std::pow(this->[01;31m[Krobot_position_[m[K.y - goal->goal_point.y, 2) +
+[13.188s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.189s]       |                          [32m[Krobot_position[m[K
+[13.189s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:52:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass NavigateActionServerNode[m[K’ has no member named ‘[01m[Krobot_position_[m[K’; did you mean ‘[01m[Krobot_position[m[K’?
+[13.190s]    52 |           std::pow(this->[01;31m[Krobot_position_[m[K.z - goal->goal_point.z, 2));
+[13.190s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.191s]       |                          [32m[Krobot_position[m[K
+[13.215s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:56:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrptime[m[K’?
+[13.216s]    56 |                 result->time_taken = (rclcpp::Clock().now() - [01;31m[Kstart_time[m[K).seconds();
+[13.216s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[13.217s]       |                                                               [32m[Kstrptime[m[K
+[13.238s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.238s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/action_server.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kshitdown[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kshutdown[m[K’?
+[13.239s]    72 |     rclcpp::[01;31m[Kshitdown[m[K();
+[13.239s]       |             [01;31m[K^~~~~~~~[m[K
+[13.240s]       |             [32m[Kshutdown[m[K
+[24.375s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[24.377s] gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/action_server.dir/all] Error 2
+[24.378s] gmake: *** [Makefile:146: all] Error 2
+[24.388s] Invoked command in '/home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/firstservicepkg/build/firstservicepkg -- -j4 -l4
