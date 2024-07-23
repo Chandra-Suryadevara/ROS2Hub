@@ -1,0 +1,14 @@
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/Image.h: No such file or directory
+    1 | #include [01;31m[K"sensor_msgs/Image.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/Image.h: No such file or directory
+    1 | #include [01;31m[K"sensor_msgs/Image.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

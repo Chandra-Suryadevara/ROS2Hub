@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000618] (firstservicepkg) JobQueued: {'identifier': 'firstservicepkg', 'dependencies': OrderedDict()}
+[0.000783] (firstservicepkg) JobStarted: {'identifier': 'firstservicepkg'}
+[0.045952] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'cmake'}
+[0.047588] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/ros_workspaces/project2/firstservicepkg', '-DCMAKE_INSTALL_PREFIX=/home/robot/ros_workspaces/project2/install/firstservicepkg'], 'cwd': '/home/robot/ros_workspaces/project2/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 50471 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c4d417f8-485b-41e2-8eb6-e20893d9e514.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '96'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5c2d95c591.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 50471 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.096740] (-) TimerEvent: {}
+[0.197446] (-) TimerEvent: {}
+[0.298172] (-) TimerEvent: {}
+[0.398845] (-) TimerEvent: {}
+[0.454965] (firstservicepkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.499138] (-) TimerEvent: {}
+[0.600382] (-) TimerEvent: {}
+[0.701132] (-) TimerEvent: {}
+[0.789762] (firstservicepkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.801324] (-) TimerEvent: {}
+[0.830133] (firstservicepkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901513] (-) TimerEvent: {}
+[1.002290] (-) TimerEvent: {}
+[1.103078] (-) TimerEvent: {}
+[1.136237] (firstservicepkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.181807] (firstservicepkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.203278] (-) TimerEvent: {}
+[1.279501] (firstservicepkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.303474] (-) TimerEvent: {}
+[1.305395] (firstservicepkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.403696] (-) TimerEvent: {}
+[1.435254] (firstservicepkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.504158] (-) TimerEvent: {}
+[1.605199] (-) TimerEvent: {}
+[1.705926] (-) TimerEvent: {}
+[1.807191] (firstservicepkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.807713] (-) TimerEvent: {}
+[1.849867] (firstservicepkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.850673] (firstservicepkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.852739] (firstservicepkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.876016] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.908044] (-) TimerEvent: {}
+[2.009065] (-) TimerEvent: {}
+[2.109909] (-) TimerEvent: {}
+[2.211013] (-) TimerEvent: {}
+[2.312432] (-) TimerEvent: {}
+[2.413963] (-) TimerEvent: {}
+[2.514776] (-) TimerEvent: {}
+[2.538166] (firstservicepkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.615030] (-) TimerEvent: {}
+[2.716539] (-) TimerEvent: {}
+[2.818272] (-) TimerEvent: {}
+[2.919632] (-) TimerEvent: {}
+[2.968683] (firstservicepkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.020006] (-) TimerEvent: {}
+[3.120774] (-) TimerEvent: {}
+[3.194711] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.219691] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.221033] (-) TimerEvent: {}
+[3.264517] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.321447] (-) TimerEvent: {}
+[3.344718] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.422093] (-) TimerEvent: {}
+[3.452756] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.522729] (-) TimerEvent: {}
+[3.624131] (-) TimerEvent: {}
+[3.725802] (-) TimerEvent: {}
+[3.827527] (-) TimerEvent: {}
+[3.833558] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.845506] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.927993] (-) TimerEvent: {}
+[4.028710] (-) TimerEvent: {}
+[4.129449] (-) TimerEvent: {}
+[4.230137] (-) TimerEvent: {}
+[4.330579] (firstservicepkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.331112] (-) TimerEvent: {}
+[4.432494] (-) TimerEvent: {}
+[4.433790] (firstservicepkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.532832] (-) TimerEvent: {}
+[4.614686] (firstservicepkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.633338] (-) TimerEvent: {}
+[4.662513] (firstservicepkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.733495] (-) TimerEvent: {}
+[4.834197] (-) TimerEvent: {}
+[4.935086] (-) TimerEvent: {}
+[4.973660] (firstservicepkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.975691] (firstservicepkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.035284] (-) TimerEvent: {}
+[5.136738] (-) TimerEvent: {}
+[5.238563] (-) TimerEvent: {}
+[5.305173] (firstservicepkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.310956] (firstservicepkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.338793] (-) TimerEvent: {}
+[5.439553] (-) TimerEvent: {}
+[5.540317] (-) TimerEvent: {}
+[5.641148] (-) TimerEvent: {}
+[5.741963] (-) TimerEvent: {}
+[5.842706] (-) TimerEvent: {}
+[5.943463] (-) TimerEvent: {}
+[6.044200] (-) TimerEvent: {}
+[6.144966] (-) TimerEvent: {}
+[6.211017] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.245156] (-) TimerEvent: {}
+[6.258569] (firstservicepkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.345335] (-) TimerEvent: {}
+[6.446083] (-) TimerEvent: {}
+[6.546969] (-) TimerEvent: {}
+[6.647651] (-) TimerEvent: {}
+[6.748364] (-) TimerEvent: {}
+[6.849070] (-) TimerEvent: {}
+[6.949793] (-) TimerEvent: {}
+[6.995868] (firstservicepkg) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[7.001286] (firstservicepkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[7.050148] (-) TimerEvent: {}
+[7.150828] (-) TimerEvent: {}
+[7.251528] (-) TimerEvent: {}
+[7.352221] (-) TimerEvent: {}
+[7.452904] (-) TimerEvent: {}
+[7.553672] (-) TimerEvent: {}
+[7.654432] (-) TimerEvent: {}
+[7.755301] (-) TimerEvent: {}
+[7.856076] (-) TimerEvent: {}
+[7.903539] (firstservicepkg) StderrLine: {'line': b"Error parsing '/home/robot/ros_workspaces/project2/firstservicepkg/package.xml':\n"}
+[7.956312] (-) TimerEvent: {}
+[8.057262] (-) TimerEvent: {}
+[8.158390] (-) TimerEvent: {}
+[8.261046] (-) TimerEvent: {}
+[8.361740] (-) TimerEvent: {}
+[8.462750] (-) TimerEvent: {}
+[8.489306] (firstservicepkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.491249] (firstservicepkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[8.492541] (firstservicepkg) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[8.493067] (firstservicepkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[8.494118] (firstservicepkg) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[8.494873] (firstservicepkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[8.495202] (firstservicepkg) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[8.495527] (firstservicepkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[8.495850] (firstservicepkg) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[8.496168] (firstservicepkg) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 31, column 2\n'}
+[8.496530] (firstservicepkg) StderrLine: {'line': b'\n'}
+[8.496850] (firstservicepkg) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[8.497578] (firstservicepkg) StderrLine: {'line': b'\n'}
+[8.497938] (firstservicepkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.498262] (firstservicepkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[8.498582] (firstservicepkg) StderrLine: {'line': b'    main()\n'}
+[8.498902] (firstservicepkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[8.499223] (firstservicepkg) StderrLine: {'line': b'    raise e\n'}
+[8.499542] (firstservicepkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[8.499863] (firstservicepkg) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[8.500183] (firstservicepkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[8.500506] (firstservicepkg) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[8.500831] (firstservicepkg) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/robot/ros_workspaces/project2/firstservicepkg/package.xml':\n"}
+[8.501287] (firstservicepkg) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[8.501625] (firstservicepkg) StderrLine: {'line': b'mismatched tag: line 31, column 2\n'}
+[8.562703] (firstservicepkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[8.564414] (-) TimerEvent: {}
+[8.565262] (firstservicepkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[8.565764] (firstservicepkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[8.566130] (firstservicepkg) StderrLine: {'line': b'  /home/robot/ros_workspaces/project2/firstservicepkg/package.xml\n'}
+[8.566615] (firstservicepkg) StderrLine: {'line': b'  /home/robot/ros_workspaces/project2/build/firstservicepkg/ament_cmake_core/package.cmake)\n'}
+[8.566968] (firstservicepkg) StderrLine: {'line': b'  returned error code 1\n'}
+[8.567334] (firstservicepkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.567731] (firstservicepkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[8.568060] (firstservicepkg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[8.568428] (firstservicepkg) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_generate_interfaces)\n'}
+[8.568793] (firstservicepkg) StderrLine: {'line': b'\n'}
+[8.569197] (firstservicepkg) StderrLine: {'line': b'\x1b[0m\n'}
+[8.569555] (firstservicepkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.569928] (firstservicepkg) StdoutLine: {'line': b'See also "/home/robot/ros_workspaces/project2/build/firstservicepkg/CMakeFiles/CMakeOutput.log".\n'}
+[8.642344] (firstservicepkg) CommandEnded: {'returncode': 1}
+[8.646048] (firstservicepkg) JobEnded: {'identifier': 'firstservicepkg', 'rc': 1}
+[8.657643] (-) EventReactorShutdown: {}

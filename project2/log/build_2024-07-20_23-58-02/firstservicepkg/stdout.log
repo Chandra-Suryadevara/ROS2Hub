@@ -1,0 +1,7 @@
+[  2%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[  5%] Built target firstservicepkg__cpp
+[  5%] Built target ament_cmake_python_copy_firstservicepkg
+[ 14%] Built target firstservicepkg__rosidl_generator_c
+[ 22%] Built target firstservicepkg__rosidl_typesupport_cpp
+[ 25%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp

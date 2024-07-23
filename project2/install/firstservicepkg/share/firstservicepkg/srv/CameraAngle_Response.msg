@@ -1,0 +1,3 @@
+
+#RESPONSE
+sensor_msgs/Image camera_image

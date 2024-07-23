@@ -1,0 +1,18 @@
+[0.046s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.270s] [  2%] Built target firstservicepkg__cpp
+[0.279s] [ 11%] Built target firstservicepkg__rosidl_generator_c
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_Client[0m
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target turn_camera_Server[0m
+[0.459s] [ 14%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[0.463s] [ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[0.482s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp: No such file or directory
+[0.483s] compilation terminated.
+[0.489s] gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+[0.490s] gmake[1]: *** Waiting for unfinished jobs....
+[0.495s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp: No such file or directory
+[0.502s] compilation terminated.
+[0.503s] gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+[0.503s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+[0.504s] gmake: *** [Makefile:146: all] Error 2
+[0.519s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

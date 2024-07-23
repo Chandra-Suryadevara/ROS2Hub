@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001167] (firstservicepkg) JobQueued: {'identifier': 'firstservicepkg', 'dependencies': OrderedDict()}
+[0.001366] (firstservicepkg) JobStarted: {'identifier': 'firstservicepkg'}
+[0.031359] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'cmake'}
+[0.034399] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'build'}
+[0.037831] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/project2/build/firstservicepkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/project2/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 60410 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c00d37aa-f4a4-4903-80c0-d0a301044ff1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5c2d95c591.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 60410 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093194] (-) TimerEvent: {}
+[0.193875] (-) TimerEvent: {}
+[0.285248] (firstservicepkg) StdoutLine: {'line': b'[  2%] Built target firstservicepkg__cpp\n'}
+[0.294077] (-) TimerEvent: {}
+[0.304267] (firstservicepkg) StdoutLine: {'line': b'[ 11%] Built target firstservicepkg__rosidl_generator_c\n'}
+[0.331367] (firstservicepkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o\x1b[0m\n'}
+[0.395235] (-) TimerEvent: {}
+[0.420580] (firstservicepkg) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_firstservicepkg\n'}
+[0.447571] (firstservicepkg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o\x1b[0m\n'}
+[0.495586] (-) TimerEvent: {}
+[0.531217] (firstservicepkg) StdoutLine: {'line': b'[ 25%] Built target firstservicepkg__rosidl_typesupport_cpp\n'}
+[0.595781] (-) TimerEvent: {}
+[0.603899] (firstservicepkg) StdoutLine: {'line': b'[ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c\n'}
+[0.680825] (firstservicepkg) StdoutLine: {'line': b'[ 42%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.695981] (-) TimerEvent: {}
+[0.791252] (firstservicepkg) StdoutLine: {'line': b'[ 51%] Built target firstservicepkg__rosidl_typesupport_introspection_c\n'}
+[0.796487] (-) TimerEvent: {}
+[0.821176] (firstservicepkg) StdoutLine: {'line': b'[ 60%] Built target firstservicepkg__rosidl_typesupport_c\n'}
+[0.899237] (-) TimerEvent: {}
+[0.958045] (firstservicepkg) StdoutLine: {'line': b'[ 68%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp\n'}
+[1.000154] (-) TimerEvent: {}
+[1.103227] (-) TimerEvent: {}
+[1.108791] (firstservicepkg) StdoutLine: {'line': b'[ 68%] Built target firstservicepkg\n'}
+[1.207325] (-) TimerEvent: {}
+[1.311228] (-) TimerEvent: {}
+[1.339968] (firstservicepkg) StdoutLine: {'line': b'[ 71%] Built target firstservicepkg__py\n'}
+[1.411415] (-) TimerEvent: {}
+[1.512161] (-) TimerEvent: {}
+[1.571707] (firstservicepkg) StdoutLine: {'line': b'[ 77%] Built target firstservicepkg__rosidl_generator_py\n'}
+[1.612353] (-) TimerEvent: {}
+[1.639219] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.712560] (-) TimerEvent: {}
+[1.722833] (firstservicepkg) StdoutLine: {'line': b'[ 82%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.812772] (-) TimerEvent: {}
+[1.831386] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.852646] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/image_encodings.h: No such file or directory\n'}
+[1.853264] (firstservicepkg) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<sensor_msgs/image_encodings.h>\x1b[m\x1b[K\n'}
+[1.853657] (firstservicepkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.854026] (firstservicepkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.875426] (firstservicepkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1\n'}
+[1.877142] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2\n'}
+[1.877730] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.912980] (-) TimerEvent: {}
+[1.950884] (firstservicepkg) StdoutLine: {'line': b'[ 88%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.013184] (-) TimerEvent: {}
+[2.113931] (-) TimerEvent: {}
+[2.214676] (-) TimerEvent: {}
+[2.315459] (-) TimerEvent: {}
+[2.416219] (-) TimerEvent: {}
+[2.516932] (-) TimerEvent: {}
+[2.617779] (-) TimerEvent: {}
+[2.623950] (firstservicepkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.627774] (firstservicepkg) StdoutLine: {'line': b'writing firstservicepkg.egg-info/PKG-INFO\n'}
+[2.628720] (firstservicepkg) StdoutLine: {'line': b'writing dependency_links to firstservicepkg.egg-info/dependency_links.txt\n'}
+[2.629654] (firstservicepkg) StdoutLine: {'line': b'writing top-level names to firstservicepkg.egg-info/top_level.txt\n'}
+[2.640920] (firstservicepkg) StdoutLine: {'line': b"reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[2.644917] (firstservicepkg) StdoutLine: {'line': b"writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[2.718096] (-) TimerEvent: {}
+[2.787371] (firstservicepkg) StdoutLine: {'line': b'[ 88%] Built target ament_cmake_python_build_firstservicepkg_egg\n'}
+[2.818304] (-) TimerEvent: {}
+[2.919086] (-) TimerEvent: {}
+[3.019836] (-) TimerEvent: {}
+[3.120593] (-) TimerEvent: {}
+[3.221344] (-) TimerEvent: {}
+[3.322095] (-) TimerEvent: {}
+[3.422844] (-) TimerEvent: {}
+[3.523628] (-) TimerEvent: {}
+[3.624352] (-) TimerEvent: {}
+[3.725089] (-) TimerEvent: {}
+[3.825808] (-) TimerEvent: {}
+[3.926571] (-) TimerEvent: {}
+[4.027334] (-) TimerEvent: {}
+[4.128086] (-) TimerEvent: {}
+[4.228844] (-) TimerEvent: {}
+[4.329556] (-) TimerEvent: {}
+[4.430292] (-) TimerEvent: {}
+[4.531033] (-) TimerEvent: {}
+[4.631796] (-) TimerEvent: {}
+[4.732547] (-) TimerEvent: {}
+[4.833286] (-) TimerEvent: {}
+[4.934018] (-) TimerEvent: {}
+[5.034741] (-) TimerEvent: {}
+[5.135531] (-) TimerEvent: {}
+[5.236259] (-) TimerEvent: {}
+[5.336986] (-) TimerEvent: {}
+[5.437704] (-) TimerEvent: {}
+[5.538439] (-) TimerEvent: {}
+[5.639206] (-) TimerEvent: {}
+[5.739959] (-) TimerEvent: {}
+[5.840691] (-) TimerEvent: {}
+[5.941426] (-) TimerEvent: {}
+[6.042166] (-) TimerEvent: {}
+[6.142897] (-) TimerEvent: {}
+[6.210182] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:18:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.210826] (firstservicepkg) StderrLine: {'line': b'   18 |     sensor_msgs::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K camera_image;\n'}
+[6.211399] (firstservicepkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.218783] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool getCameraImage(const TurnCameraRequest&, TurnCameraResponse&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.219467] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:47:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImagePtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.219989] (firstservicepkg) StderrLine: {'line': b'   47 |     sensor_msgs::\x1b[01;31m\x1b[KImagePtr\x1b[m\x1b[K img_ptr = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();\n'}
+[6.220483] (firstservicepkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.223844] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct TurnCameraResponse\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcamera_image\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.224512] (firstservicepkg) StderrLine: {'line': b'   49 |     res.\x1b[01;31m\x1b[Kcamera_image\x1b[m\x1b[K = *img_ptr;\n'}
+[6.224990] (firstservicepkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.240539] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimg_ptr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.241172] (firstservicepkg) StderrLine: {'line': b'   49 |     res.camera_image = *\x1b[01;31m\x1b[Kimg_ptr\x1b[m\x1b[K;\n'}
+[6.241654] (firstservicepkg) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.243126] (-) TimerEvent: {}
+[6.254442] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.255121] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:54:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.255744] (firstservicepkg) StderrLine: {'line': b'   54 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[6.256244] (firstservicepkg) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[6.343306] (-) TimerEvent: {}
+[6.444039] (-) TimerEvent: {}
+[6.544767] (-) TimerEvent: {}
+[6.645513] (-) TimerEvent: {}
+[6.746255] (-) TimerEvent: {}
+[6.846951] (-) TimerEvent: {}
+[6.925624] (firstservicepkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1\n'}
+[6.926200] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2\n'}
+[6.928979] (firstservicepkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.943211] (firstservicepkg) CommandEnded: {'returncode': 2}
+[6.947367] (-) TimerEvent: {}
+[7.048352] (-) TimerEvent: {}
+[7.149162] (-) TimerEvent: {}
+[7.250274] (-) TimerEvent: {}
+[7.329992] (firstservicepkg) JobEnded: {'identifier': 'firstservicepkg', 'rc': 2}
+[7.341749] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[  2%] Built target firstservicepkg__cpp
+[ 11%] Built target firstservicepkg__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_Client[0m
+[35m[1mConsolidate compiler generated dependencies of target turn_camera_Server[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m

@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000705] (firstservicepkg) JobQueued: {'identifier': 'firstservicepkg', 'dependencies': OrderedDict()}
+[0.001251] (firstservicepkg) JobStarted: {'identifier': 'firstservicepkg'}
+[0.033573] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'cmake'}
+[0.039915] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'build'}
+[0.040232] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/project2/build/firstservicepkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/project2/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 50471 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c4d417f8-485b-41e2-8eb6-e20893d9e514.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '96'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5c2d95c591.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 50471 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097328] (-) TimerEvent: {}
+[0.176266] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197523] (-) TimerEvent: {}
+[0.298322] (-) TimerEvent: {}
+[0.399338] (-) TimerEvent: {}
+[0.501097] (-) TimerEvent: {}
+[0.601903] (-) TimerEvent: {}
+[0.702739] (-) TimerEvent: {}
+[0.725841] (firstservicepkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.802973] (-) TimerEvent: {}
+[0.854816] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.868644] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.898832] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.903142] (-) TimerEvent: {}
+[0.959018] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.003414] (-) TimerEvent: {}
+[1.044077] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103707] (-) TimerEvent: {}
+[1.205510] (-) TimerEvent: {}
+[1.307238] (-) TimerEvent: {}
+[1.351451] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.359107] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.407842] (-) TimerEvent: {}
+[1.509290] (-) TimerEvent: {}
+[1.610312] (-) TimerEvent: {}
+[1.711034] (-) TimerEvent: {}
+[1.812134] (-) TimerEvent: {}
+[1.839886] (firstservicepkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.912673] (-) TimerEvent: {}
+[2.014200] (-) TimerEvent: {}
+[2.115019] (-) TimerEvent: {}
+[2.215940] (-) TimerEvent: {}
+[2.316685] (-) TimerEvent: {}
+[2.417431] (-) TimerEvent: {}
+[2.518211] (-) TimerEvent: {}
+[2.619006] (-) TimerEvent: {}
+[2.669460] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.703370] (firstservicepkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.719233] (-) TimerEvent: {}
+[2.819994] (-) TimerEvent: {}
+[2.920706] (-) TimerEvent: {}
+[3.021419] (-) TimerEvent: {}
+[3.122164] (-) TimerEvent: {}
+[3.222935] (-) TimerEvent: {}
+[3.323709] (-) TimerEvent: {}
+[3.375205] (firstservicepkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.423904] (-) TimerEvent: {}
+[3.524984] (-) TimerEvent: {}
+[3.626492] (-) TimerEvent: {}
+[3.727632] (-) TimerEvent: {}
+[3.829274] (-) TimerEvent: {}
+[3.930326] (-) TimerEvent: {}
+[4.031158] (-) TimerEvent: {}
+[4.131970] (-) TimerEvent: {}
+[4.232657] (-) TimerEvent: {}
+[4.333691] (-) TimerEvent: {}
+[4.439847] (-) TimerEvent: {}
+[4.541472] (-) TimerEvent: {}
+[4.642945] (-) TimerEvent: {}
+[4.744028] (-) TimerEvent: {}
+[4.826788] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[4.834183] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[4.838064] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[4.843111] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.844106] (-) TimerEvent: {}
+[4.944858] (-) TimerEvent: {}
+[5.046590] (-) TimerEvent: {}
+[5.148147] (-) TimerEvent: {}
+[5.249117] (-) TimerEvent: {}
+[5.350965] (-) TimerEvent: {}
+[5.452386] (-) TimerEvent: {}
+[5.553520] (-) TimerEvent: {}
+[5.654979] (-) TimerEvent: {}
+[5.755802] (-) TimerEvent: {}
+[5.857031] (-) TimerEvent: {}
+[5.957790] (-) TimerEvent: {}
+[6.058506] (-) TimerEvent: {}
+[6.159647] (-) TimerEvent: {}
+[6.261085] (-) TimerEvent: {}
+[6.362562] (-) TimerEvent: {}
+[6.463950] (-) TimerEvent: {}
+[6.565253] (-) TimerEvent: {}
+[6.665992] (-) TimerEvent: {}
+[6.767190] (-) TimerEvent: {}
+[6.868138] (-) TimerEvent: {}
+[6.969426] (-) TimerEvent: {}
+[7.071935] (-) TimerEvent: {}
+[7.172985] (-) TimerEvent: {}
+[7.273877] (-) TimerEvent: {}
+[7.329993] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.374304] (-) TimerEvent: {}
+[7.475020] (-) TimerEvent: {}
+[7.578409] (-) TimerEvent: {}
+[7.679911] (-) TimerEvent: {}
+[7.780851] (-) TimerEvent: {}
+[7.881803] (-) TimerEvent: {}
+[7.982904] (-) TimerEvent: {}
+[8.084799] (-) TimerEvent: {}
+[8.186375] (-) TimerEvent: {}
+[8.287610] (-) TimerEvent: {}
+[8.320608] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.387800] (-) TimerEvent: {}
+[8.426147] (firstservicepkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.488031] (-) TimerEvent: {}
+[8.528374] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.529060] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.529534] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.588246] (-) TimerEvent: {}
+[8.689073] (-) TimerEvent: {}
+[8.790027] (-) TimerEvent: {}
+[8.836438] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[8.840011] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[8.845879] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.878787] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.882177] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.882728] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.887831] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.888421] (firstservicepkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.890620] (-) TimerEvent: {}
+[8.893479] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.894064] (firstservicepkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.897030] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.899086] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.907101] (firstservicepkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.990884] (-) TimerEvent: {}
+[9.091200] (firstservicepkg) StdoutLine: {'line': b'-- Generating done\n'}
+[9.091857] (-) TimerEvent: {}
+[9.109035] (firstservicepkg) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/ros_workspaces/project2/build/firstservicepkg\n'}
+[9.192077] (-) TimerEvent: {}
+[9.235953] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c\x1b[0m\n'}
+[9.292267] (-) TimerEvent: {}
+[9.315281] (firstservicepkg) StdoutLine: {'line': b'[  6%] Built target firstservicepkg__cpp\n'}
+[9.315950] (firstservicepkg) StdoutLine: {'line': b'[ 12%] Built target firstservicepkg__rosidl_generator_c\n'}
+[9.366025] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.386405] (firstservicepkg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_firstservicepkg\n'}
+[9.391463] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.392384] (-) TimerEvent: {}
+[9.414331] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.452245] (firstservicepkg) StdoutLine: {'line': b'[ 22%] Built target firstservicepkg__rosidl_typesupport_cpp\n'}
+[9.456430] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.492588] (-) TimerEvent: {}
+[9.496430] (firstservicepkg) StdoutLine: {'line': b'[ 32%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c\n'}
+[9.513434] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c\x1b[0m\n'}
+[9.541535] (firstservicepkg) StdoutLine: {'line': b'[ 51%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.545128] (firstservicepkg) StdoutLine: {'line': b'[ 51%] Built target firstservicepkg__rosidl_typesupport_introspection_c\n'}
+[9.556082] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.590921] (firstservicepkg) StdoutLine: {'line': b'[ 61%] Built target firstservicepkg__rosidl_typesupport_c\n'}
+[9.592821] (-) TimerEvent: {}
+[9.623808] (firstservicepkg) StdoutLine: {'line': b'[ 70%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp\n'}
+[9.695730] (-) TimerEvent: {}
+[9.717288] (firstservicepkg) StdoutLine: {'line': b'[ 70%] Built target firstservicepkg\n'}
+[9.795923] (-) TimerEvent: {}
+[9.817818] (firstservicepkg) StdoutLine: {'line': b'[ 74%] Built target firstservicepkg__py\n'}
+[9.875835] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_py\x1b[0m\n'}
+[9.896149] (-) TimerEvent: {}
+[9.944524] (firstservicepkg) StdoutLine: {'line': b'[ 80%] Built target firstservicepkg__rosidl_generator_py\n'}
+[9.990723] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.996930] (-) TimerEvent: {}
+[10.005981] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.037617] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.095164] (firstservicepkg) StdoutLine: {'line': b'[ 87%] Built target firstservicepkg__rosidl_typesupport_c__pyext\n'}
+[10.097112] (-) TimerEvent: {}
+[10.099066] (firstservicepkg) StdoutLine: {'line': b'[ 93%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.134611] (firstservicepkg) StdoutLine: {'line': b'[100%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext\n'}
+[10.197302] (-) TimerEvent: {}
+[10.298016] (-) TimerEvent: {}
+[10.398741] (-) TimerEvent: {}
+[10.499455] (-) TimerEvent: {}
+[10.600662] (-) TimerEvent: {}
+[10.701447] (-) TimerEvent: {}
+[10.802575] (-) TimerEvent: {}
+[10.825849] (firstservicepkg) StdoutLine: {'line': b'running egg_info\n'}
+[10.829268] (firstservicepkg) StdoutLine: {'line': b'writing firstservicepkg.egg-info/PKG-INFO\n'}
+[10.830181] (firstservicepkg) StdoutLine: {'line': b'writing dependency_links to firstservicepkg.egg-info/dependency_links.txt\n'}
+[10.831788] (firstservicepkg) StdoutLine: {'line': b'writing top-level names to firstservicepkg.egg-info/top_level.txt\n'}
+[10.840798] (firstservicepkg) StdoutLine: {'line': b"reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[10.843963] (firstservicepkg) StdoutLine: {'line': b"writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[10.902957] (-) TimerEvent: {}
+[10.962394] (firstservicepkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_firstservicepkg_egg\n'}
+[11.003195] (-) TimerEvent: {}
+[11.008426] (firstservicepkg) CommandEnded: {'returncode': 0}
+[11.103460] (-) TimerEvent: {}
+[11.204269] (-) TimerEvent: {}
+[11.268463] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'install'}
+[11.305217] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/ros_workspaces/project2/build/firstservicepkg'], 'cwd': '/home/robot/ros_workspaces/project2/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 50471 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c4d417f8-485b-41e2-8eb6-e20893d9e514.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '96'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5c2d95c591.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 50471 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.307424] (-) TimerEvent: {}
+[11.339618] (firstservicepkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.340713] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/ament_index/resource_index/rosidl_interfaces/firstservicepkg\n'}
+[11.341946] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.342527] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg\n'}
+[11.342918] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.343294] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.343884] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/camera_angle.h\n'}
+[11.344293] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.344810] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__functions.c\n'}
+[11.345605] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__functions.h\n'}
+[11.346011] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__struct.h\n'}
+[11.346442] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.h\n'}
+[11.347009] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/library_path.sh\n'}
+[11.347398] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/library_path.dsv\n'}
+[11.348376] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_c.so\n'}
+[11.349713] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.350257] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg\n'}
+[11.350702] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.351229] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.351866] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.352662] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[11.353057] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.353609] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.353997] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.354370] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/camera_angle.hpp\n'}
+[11.354937] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.355340] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__traits.hpp\n'}
+[11.356250] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__builder.hpp\n'}
+[11.356655] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__struct.hpp\n'}
+[11.357156] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.357539] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg\n'}
+[11.358341] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.358954] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.359344] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.360149] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.360771] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/dds_fastrtps\n'}
+[11.361229] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.361973] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.362377] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg\n'}
+[11.362993] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.363764] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.364534] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.365628] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_introspection_c.h\n'}
+[11.366015] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.c\n'}
+[11.366390] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_c.so\n'}
+[11.366773] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_c.so\n'}
+[11.367236] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg\n'}
+[11.367678] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv\n'}
+[11.368073] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail\n'}
+[11.368451] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.cpp\n'}
+[11.368821] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.369195] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.369623] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_cpp.so\n'}
+[11.369996] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/pythonpath.sh\n'}
+[11.370358] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/pythonpath.dsv\n'}
+[11.370720] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info\n'}
+[11.371083] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.371561] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.372009] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.372387] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.372759] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg\n'}
+[11.373121] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.373488] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/__init__.py\n'}
+[11.373856] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/libfirstservicepkg__rosidl_generator_py.so\n'}
+[11.374220] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv\n'}
+[11.374590] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_camera_angle.py\n'}
+[11.374987] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/__init__.py\n'}
+[11.375361] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_camera_angle_s.c\n'}
+[11.375803] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.376184] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.376552] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.376922] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_c.c\n'}
+[11.377332] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.407662] (-) TimerEvent: {}
+[11.500365] (firstservicepkg) StdoutLine: {'line': b"Listing '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg'...\n"}
+[11.502353] (firstservicepkg) StdoutLine: {'line': b"Compiling '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/__init__.py'...\n"}
+[11.503832] (firstservicepkg) StdoutLine: {'line': b"Listing '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv'...\n"}
+[11.507831] (-) TimerEvent: {}
+[11.524460] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.526013] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.527437] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.529283] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_py.so\n'}
+[11.530332] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/CameraAngle.idl\n'}
+[11.531309] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/CameraAngle.srv\n'}
+[11.532124] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/CameraAngle_Request.msg\n'}
+[11.532716] (firstservicepkg) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/CameraAngle_Response.msg\n'}
+[11.533392] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/ament_index/resource_index/package_run_dependencies/firstservicepkg\n'}
+[11.534054] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/ament_index/resource_index/parent_prefix_path/firstservicepkg\n'}
+[11.534655] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/ament_prefix_path.sh\n'}
+[11.535401] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/ament_prefix_path.dsv\n'}
+[11.536175] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/path.sh\n'}
+[11.537562] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/path.dsv\n'}
+[11.538374] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/local_setup.bash\n'}
+[11.539119] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/local_setup.sh\n'}
+[11.540264] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/local_setup.zsh\n'}
+[11.541077] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/local_setup.dsv\n'}
+[11.541804] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/package.dsv\n'}
+[11.543215] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/ament_index/resource_index/packages/firstservicepkg\n'}
+[11.545136] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_generator_cExport.cmake\n'}
+[11.545853] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.546551] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.548042] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.548654] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_generator_cppExport.cmake\n'}
+[11.549336] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.550078] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.550837] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.551642] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.552434] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_cExport.cmake\n'}
+[11.553587] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.554476] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.555215] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.556343] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.557139] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.558144] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_generator_pyExport.cmake\n'}
+[11.559028] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/export_firstservicepkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.559942] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.560861] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.561674] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.562540] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.563445] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.564505] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.565303] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.566270] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkgConfig.cmake\n'}
+[11.567024] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/cmake/firstservicepkgConfig-version.cmake\n'}
+[11.567780] (firstservicepkg) StdoutLine: {'line': b'-- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/package.xml\n'}
+[11.575362] (firstservicepkg) CommandEnded: {'returncode': 0}
+[11.608080] (-) TimerEvent: {}
+[11.708803] (-) TimerEvent: {}
+[11.810027] (-) TimerEvent: {}
+[11.911392] (-) TimerEvent: {}
+[11.926663] (firstservicepkg) JobEnded: {'identifier': 'firstservicepkg', 'rc': 0}
+[11.930048] (-) EventReactorShutdown: {}

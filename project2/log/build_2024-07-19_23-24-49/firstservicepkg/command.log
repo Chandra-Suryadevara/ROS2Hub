@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/ros_workspaces/project2/firstservicepkg -DCMAKE_INSTALL_PREFIX=/home/robot/ros_workspaces/project2/install/firstservicepkg
+Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/ros_workspaces/project2/firstservicepkg -DCMAKE_INSTALL_PREFIX=/home/robot/ros_workspaces/project2/install/firstservicepkg
+Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/project2/build/firstservicepkg
+Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/project2/build/firstservicepkg

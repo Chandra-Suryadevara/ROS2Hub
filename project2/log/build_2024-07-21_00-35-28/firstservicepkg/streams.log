@@ -1,0 +1,86 @@
+[0.052s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.175s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.944s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.960s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.993s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.481s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.488s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.888s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.927s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.640s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.075s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[5.082s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[5.085s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[5.089s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.744s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.837s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.837s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.838s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.149s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[9.152s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[9.190s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.227s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.232s] -- Configured cppcheck include dirs: 
+[9.232s] -- Configured cppcheck exclude dirs and/or files: 
+[9.238s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.238s] -- Configured cpplint exclude dirs and/or files: 
+[9.243s] -- Added test 'uncrustify' to check C / C++ code style
+[9.245s] -- Configured uncrustify additional arguments: 
+[9.248s] -- Added test 'lint_cmake' to check CMake code style
+[9.250s] -- Added test 'xmllint' to check XML markup files
+[9.261s] -- Configuring done
+[9.525s] -- Generating done
+[9.550s] -- Build files have been written to: /home/robot/ros_workspaces/project2/build/firstservicepkg
+[9.689s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c[0m
+[9.763s] [  8%] Built target firstservicepkg__rosidl_generator_c
+[9.784s] [ 11%] Built target firstservicepkg__cpp
+[9.819s] [ 14%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[9.881s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_cpp[0m
+[9.910s] [ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[9.954s] [ 17%] Built target ament_cmake_python_copy_firstservicepkg
+[10.001s] [ 25%] Built target firstservicepkg__rosidl_typesupport_cpp
+[10.040s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c[0m
+[10.110s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_cpp[0m
+[10.178s] [ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[10.302s] [ 42%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[10.303s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c[0m
+[10.405s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c[0m
+[10.435s] [ 51%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[10.508s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_cpp[0m
+[10.583s] [ 60%] Built target firstservicepkg__rosidl_typesupport_c
+[10.637s] [ 68%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[10.819s] [ 68%] Built target firstservicepkg
+[11.034s] [ 71%] Built target firstservicepkg__py
+[11.153s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_py[0m
+[11.300s] [ 77%] Built target firstservicepkg__rosidl_generator_py
+[11.356s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.471s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/turn_camera.hpp: No such file or directory
+[11.472s]     2 | #include [01;31m[K"firstservicepkg/srv/turn_camera.hpp"[m[K
+[11.472s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.473s] compilation terminated.
+[11.484s] gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:76: CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o] Error 1
+[11.486s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_client.dir/all] Error 2
+[11.486s] gmake[1]: *** Waiting for unfinished jobs....
+[11.523s] [ 82%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[11.554s] In file included from [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_service.cpp:2[m[K:
+[11.560s] [01m[K/home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/detail/turn_camera__struct.hpp: No such file or directory
+[11.564s]     7 | #include [01;31m[K"firstservicepkg/srv/detail/turn_camera__struct.hpp"[m[K
+[11.568s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.570s] compilation terminated.
+[11.572s] gmake[2]: *** [CMakeFiles/turn_camera_service.dir/build.make:76: CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o] Error 1
+[11.575s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_service.dir/all] Error 2
+[12.024s] running egg_info
+[12.029s] writing firstservicepkg.egg-info/PKG-INFO
+[12.030s] writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+[12.030s] writing top-level names to firstservicepkg.egg-info/top_level.txt
+[12.039s] reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[12.042s] writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[12.154s] [ 82%] Built target ament_cmake_python_build_firstservicepkg_egg
+[12.160s] gmake: *** [Makefile:146: all] Error 2
+[12.167s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

@@ -1,0 +1,4 @@
+float32 number  #REQUEST
+---
+#RESPONSE
+sensor_msgs/Image camera_image

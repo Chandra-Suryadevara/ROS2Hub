@@ -1,0 +1,23 @@
+[0.051s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.316s] [  2%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[0.322s] [  5%] Built target firstservicepkg__cpp
+[0.349s] [  5%] Built target ament_cmake_python_copy_firstservicepkg
+[0.360s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image.h: No such file or directory
+[0.361s]     1 | #include [01;31m[K"sensor_msgs/image.h"[m[K
+[0.361s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.362s] [ 14%] Built target firstservicepkg__rosidl_generator_c
+[0.362s] compilation terminated.
+[0.389s] gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+[0.390s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+[0.390s] gmake[1]: *** Waiting for unfinished jobs....
+[0.458s] [ 22%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.460s] [ 25%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[0.466s] [ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[0.498s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image.h: No such file or directory
+[0.498s]     1 | #include [01;31m[K"sensor_msgs/image.h"[m[K
+[0.499s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.499s] compilation terminated.
+[0.502s] gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+[0.503s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+[0.506s] gmake: *** [Makefile:146: all] Error 2
+[0.515s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

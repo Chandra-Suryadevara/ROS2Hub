@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (firstservicepkg) JobQueued: {'identifier': 'firstservicepkg', 'dependencies': OrderedDict()}
+[0.000667] (firstservicepkg) JobStarted: {'identifier': 'firstservicepkg'}
+[0.032787] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'cmake'}
+[0.035730] (firstservicepkg) JobProgress: {'identifier': 'firstservicepkg', 'progress': 'build'}
+[0.038586] (firstservicepkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros_workspaces/project2/build/firstservicepkg', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros_workspaces/project2/build/firstservicepkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'robot'), ('SSH_CLIENT', '10.0.0.204 60410 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/ros_workspaces'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c00d37aa-f4a4-4903-80c0-d0a301044ff1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5c2d95c591.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robot/ros_workspaces/project2/build/firstservicepkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.204 60410 10.0.0.239 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095972] (-) TimerEvent: {}
+[0.149965] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.196141] (-) TimerEvent: {}
+[0.297033] (-) TimerEvent: {}
+[0.397818] (-) TimerEvent: {}
+[0.498554] (-) TimerEvent: {}
+[0.599353] (-) TimerEvent: {}
+[0.697794] (firstservicepkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.699594] (-) TimerEvent: {}
+[0.801246] (-) TimerEvent: {}
+[0.820773] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.834181] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.867342] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.901440] (-) TimerEvent: {}
+[0.928101] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001665] (-) TimerEvent: {}
+[1.013083] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102019] (-) TimerEvent: {}
+[1.202707] (-) TimerEvent: {}
+[1.303447] (-) TimerEvent: {}
+[1.314164] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.320205] (firstservicepkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403729] (-) TimerEvent: {}
+[1.504566] (-) TimerEvent: {}
+[1.605622] (-) TimerEvent: {}
+[1.707001] (-) TimerEvent: {}
+[1.800800] (firstservicepkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.807236] (-) TimerEvent: {}
+[1.907993] (-) TimerEvent: {}
+[2.008814] (-) TimerEvent: {}
+[2.109647] (-) TimerEvent: {}
+[2.210339] (-) TimerEvent: {}
+[2.311193] (-) TimerEvent: {}
+[2.411916] (-) TimerEvent: {}
+[2.512658] (-) TimerEvent: {}
+[2.613384] (-) TimerEvent: {}
+[2.629829] (firstservicepkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.664606] (firstservicepkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.713628] (-) TimerEvent: {}
+[2.814399] (-) TimerEvent: {}
+[2.915195] (-) TimerEvent: {}
+[3.015950] (-) TimerEvent: {}
+[3.116700] (-) TimerEvent: {}
+[3.217462] (-) TimerEvent: {}
+[3.318163] (-) TimerEvent: {}
+[3.343701] (firstservicepkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.418362] (-) TimerEvent: {}
+[3.519105] (-) TimerEvent: {}
+[3.619806] (-) TimerEvent: {}
+[3.720555] (-) TimerEvent: {}
+[3.821293] (-) TimerEvent: {}
+[3.922087] (-) TimerEvent: {}
+[4.022889] (-) TimerEvent: {}
+[4.123747] (-) TimerEvent: {}
+[4.224506] (-) TimerEvent: {}
+[4.325226] (-) TimerEvent: {}
+[4.426110] (-) TimerEvent: {}
+[4.526937] (-) TimerEvent: {}
+[4.627912] (-) TimerEvent: {}
+[4.728691] (-) TimerEvent: {}
+[4.777710] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[4.784612] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[4.787921] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[4.792264] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.828917] (-) TimerEvent: {}
+[4.929637] (-) TimerEvent: {}
+[5.030316] (-) TimerEvent: {}
+[5.130951] (-) TimerEvent: {}
+[5.231669] (-) TimerEvent: {}
+[5.332401] (-) TimerEvent: {}
+[5.433180] (-) TimerEvent: {}
+[5.534064] (-) TimerEvent: {}
+[5.634753] (-) TimerEvent: {}
+[5.735452] (-) TimerEvent: {}
+[5.836165] (-) TimerEvent: {}
+[5.936904] (-) TimerEvent: {}
+[6.037615] (-) TimerEvent: {}
+[6.138317] (-) TimerEvent: {}
+[6.239104] (-) TimerEvent: {}
+[6.339854] (-) TimerEvent: {}
+[6.440647] (-) TimerEvent: {}
+[6.541420] (-) TimerEvent: {}
+[6.642185] (-) TimerEvent: {}
+[6.742910] (-) TimerEvent: {}
+[6.843698] (-) TimerEvent: {}
+[6.944430] (-) TimerEvent: {}
+[7.045128] (-) TimerEvent: {}
+[7.145848] (-) TimerEvent: {}
+[7.246639] (-) TimerEvent: {}
+[7.253339] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.346806] (-) TimerEvent: {}
+[7.447566] (-) TimerEvent: {}
+[7.548334] (-) TimerEvent: {}
+[7.649095] (-) TimerEvent: {}
+[7.749823] (-) TimerEvent: {}
+[7.850596] (-) TimerEvent: {}
+[7.951356] (-) TimerEvent: {}
+[8.052117] (-) TimerEvent: {}
+[8.152859] (-) TimerEvent: {}
+[8.224221] (firstservicepkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.253093] (-) TimerEvent: {}
+[8.335415] (firstservicepkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.353322] (-) TimerEvent: {}
+[8.451371] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.451994] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.452479] (firstservicepkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.453553] (-) TimerEvent: {}
+[8.554380] (-) TimerEvent: {}
+[8.655203] (-) TimerEvent: {}
+[8.755949] (-) TimerEvent: {}
+[8.783748] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[8.787142] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[8.826884] (firstservicepkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.856139] (-) TimerEvent: {}
+[8.860752] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.864752] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.865376] (firstservicepkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.870594] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.871199] (firstservicepkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.876439] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.877021] (firstservicepkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.880858] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.882705] (firstservicepkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.891307] (firstservicepkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.956382] (-) TimerEvent: {}
+[9.057156] (-) TimerEvent: {}
+[9.136327] (firstservicepkg) StdoutLine: {'line': b'-- Generating done\n'}
+[9.154994] (firstservicepkg) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/ros_workspaces/project2/build/firstservicepkg\n'}
+[9.157351] (-) TimerEvent: {}
+[9.258059] (-) TimerEvent: {}
+[9.294951] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c\x1b[0m\n'}
+[9.356028] (firstservicepkg) StdoutLine: {'line': b'[  8%] Built target firstservicepkg__rosidl_generator_c\n'}
+[9.358945] (-) TimerEvent: {}
+[9.384815] (firstservicepkg) StdoutLine: {'line': b'[ 11%] Built target firstservicepkg__cpp\n'}
+[9.394357] (firstservicepkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o\x1b[0m\n'}
+[9.433568] (firstservicepkg) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_firstservicepkg\n'}
+[9.459144] (-) TimerEvent: {}
+[9.485386] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.487014] (firstservicepkg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o\x1b[0m\n'}
+[9.524977] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.559345] (-) TimerEvent: {}
+[9.602708] (firstservicepkg) StdoutLine: {'line': b'[ 25%] Built target firstservicepkg__rosidl_typesupport_cpp\n'}
+[9.644580] (firstservicepkg) StdoutLine: {'line': b'[ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c\n'}
+[9.659566] (-) TimerEvent: {}
+[9.689944] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.760366] (-) TimerEvent: {}
+[9.761537] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.835678] (firstservicepkg) StdoutLine: {'line': b'[ 42%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.861172] (-) TimerEvent: {}
+[9.895465] (firstservicepkg) StdoutLine: {'line': b'[ 51%] Built target firstservicepkg__rosidl_typesupport_introspection_c\n'}
+[9.919864] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c\x1b[0m\n'}
+[9.961090] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.961763] (-) TimerEvent: {}
+[10.010080] (firstservicepkg) StdoutLine: {'line': b'[ 60%] Built target firstservicepkg__rosidl_typesupport_c\n'}
+[10.052407] (firstservicepkg) StdoutLine: {'line': b'[ 68%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp\n'}
+[10.061998] (-) TimerEvent: {}
+[10.163139] (-) TimerEvent: {}
+[10.216436] (firstservicepkg) StdoutLine: {'line': b'[ 68%] Built target firstservicepkg\n'}
+[10.263304] (-) TimerEvent: {}
+[10.364367] (-) TimerEvent: {}
+[10.409476] (firstservicepkg) StdoutLine: {'line': b'[ 71%] Built target firstservicepkg__py\n'}
+[10.464590] (-) TimerEvent: {}
+[10.538236] (firstservicepkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_py\x1b[0m\n'}
+[10.564775] (-) TimerEvent: {}
+[10.665908] (-) TimerEvent: {}
+[10.676311] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kimage_transport/image_transport.h: No such file or directory\n'}
+[10.678947] (firstservicepkg) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<image_transport/image_transport.h>\x1b[m\x1b[K\n'}
+[10.681932] (firstservicepkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.682675] (firstservicepkg) StderrLine: {'line': b'compilation terminated.\n'}
+[10.686339] (firstservicepkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/image_encodings.h: No such file or directory\n'}
+[10.686976] (firstservicepkg) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<sensor_msgs/image_encodings.h>\x1b[m\x1b[K\n'}
+[10.687431] (firstservicepkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.694029] (firstservicepkg) StderrLine: {'line': b'compilation terminated.\n'}
+[10.696112] (firstservicepkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1\n'}
+[10.698385] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2\n'}
+[10.701594] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.707213] (firstservicepkg) StdoutLine: {'line': b'[ 77%] Built target firstservicepkg__rosidl_generator_py\n'}
+[10.707797] (firstservicepkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1\n'}
+[10.708239] (firstservicepkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2\n'}
+[10.766123] (-) TimerEvent: {}
+[10.866888] (-) TimerEvent: {}
+[10.967606] (-) TimerEvent: {}
+[11.068267] (-) TimerEvent: {}
+[11.169057] (-) TimerEvent: {}
+[11.269791] (-) TimerEvent: {}
+[11.370570] (-) TimerEvent: {}
+[11.399623] (firstservicepkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.402954] (firstservicepkg) StdoutLine: {'line': b'writing firstservicepkg.egg-info/PKG-INFO\n'}
+[11.403948] (firstservicepkg) StdoutLine: {'line': b'writing dependency_links to firstservicepkg.egg-info/dependency_links.txt\n'}
+[11.405006] (firstservicepkg) StdoutLine: {'line': b'writing top-level names to firstservicepkg.egg-info/top_level.txt\n'}
+[11.414080] (firstservicepkg) StdoutLine: {'line': b"reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[11.416843] (firstservicepkg) StdoutLine: {'line': b"writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'\n"}
+[11.470776] (-) TimerEvent: {}
+[11.543557] (firstservicepkg) StdoutLine: {'line': b'[ 77%] Built target ament_cmake_python_build_firstservicepkg_egg\n'}
+[11.547533] (firstservicepkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.553621] (firstservicepkg) CommandEnded: {'returncode': 2}
+[11.570944] (-) TimerEvent: {}
+[11.671634] (-) TimerEvent: {}
+[11.772394] (-) TimerEvent: {}
+[11.872515] (firstservicepkg) JobEnded: {'identifier': 'firstservicepkg', 'rc': 2}
+[11.876484] (-) TimerEvent: {}
+[11.878240] (-) EventReactorShutdown: {}

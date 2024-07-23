@@ -1,0 +1,54 @@
+[0.039s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.285s] [  2%] Built target firstservicepkg__cpp
+[0.303s] [ 11%] Built target firstservicepkg__rosidl_generator_c
+[0.330s] [ 14%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[0.420s] [ 14%] Built target ament_cmake_python_copy_firstservicepkg
+[0.447s] [ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[0.530s] [ 25%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.603s] [ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[0.680s] [ 42%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[0.790s] [ 51%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[0.820s] [ 60%] Built target firstservicepkg__rosidl_typesupport_c
+[0.957s] [ 68%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[1.108s] [ 68%] Built target firstservicepkg
+[1.339s] [ 71%] Built target firstservicepkg__py
+[1.571s] [ 77%] Built target firstservicepkg__rosidl_generator_py
+[1.638s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.722s] [ 82%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[1.830s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c__pyext[0m
+[1.852s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+[1.852s]     3 | #include [01;31m[K<sensor_msgs/image_encodings.h>[m[K
+[1.853s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.853s] compilation terminated.
+[1.875s] gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+[1.876s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+[1.877s] gmake[1]: *** Waiting for unfinished jobs....
+[1.950s] [ 88%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[2.623s] running egg_info
+[2.627s] writing firstservicepkg.egg-info/PKG-INFO
+[2.628s] writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+[2.629s] writing top-level names to firstservicepkg.egg-info/top_level.txt
+[2.640s] reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.644s] writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[2.786s] [ 88%] Built target ament_cmake_python_build_firstservicepkg_egg
+[6.209s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:18:18:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+[6.210s]    18 |     sensor_msgs::[01;31m[KImage[m[K camera_image;
+[6.210s]       |                  [01;31m[K^~~~~[m[K
+[6.218s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:[m[K In function ‘[01m[Kbool getCameraImage(const TurnCameraRequest&, TurnCameraResponse&)[m[K’:
+[6.218s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[KImagePtr[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[6.219s]    47 |     sensor_msgs::[01;31m[KImagePtr[m[K img_ptr = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();
+[6.219s]       |                  [01;31m[K^~~~~~~~[m[K
+[6.223s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct TurnCameraResponse[m[K’ has no member named ‘[01m[Kcamera_image[m[K’
+[6.223s]    49 |     res.[01;31m[Kcamera_image[m[K = *img_ptr;
+[6.224s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[6.240s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_ptr[m[K’ was not declared in this scope
+[6.240s]    49 |     res.camera_image = *[01;31m[Kimg_ptr[m[K;
+[6.241s]       |                         [01;31m[K^~~~~~~[m[K
+[6.253s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.254s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:54:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.255s]    54 | int main([01;35m[Kint argc[m[K, char **argv)
+[6.255s]       |          [01;35m[K~~~~^~~~[m[K
+[6.925s] gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+[6.925s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+[6.928s] gmake: *** [Makefile:146: all] Error 2
+[6.943s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

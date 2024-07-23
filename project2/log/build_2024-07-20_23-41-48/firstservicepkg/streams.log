@@ -1,0 +1,24 @@
+[0.054s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.352s] [  2%] Built target firstservicepkg__cpp
+[0.399s] [  5%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[0.408s] [ 14%] Built target firstservicepkg__rosidl_generator_c
+[0.445s] [ 14%] Built target ament_cmake_python_copy_firstservicepkg
+[0.497s] [ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[0.508s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core.hpp: No such file or directory
+[0.509s]     1 | #include [01;31m[K<opencv2/core.hpp>[m[K
+[0.509s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.510s] compilation terminated.
+[0.516s] gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+[0.516s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+[0.517s] gmake[1]: *** Waiting for unfinished jobs....
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c[0m
+[0.566s] [ 25%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.584s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core.hpp: No such file or directory
+[0.585s]     1 | #include [01;31m[K<opencv2/core.hpp>[m[K
+[0.586s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.587s] compilation terminated.
+[0.591s] gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+[0.630s] [ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[0.634s] gmake: *** [Makefile:146: all] Error 2
+[0.644s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

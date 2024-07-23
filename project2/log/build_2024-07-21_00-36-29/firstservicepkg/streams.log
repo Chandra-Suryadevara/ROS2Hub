@@ -1,0 +1,65 @@
+[0.053s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.155s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.834s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.848s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.877s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.321s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.329s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.632s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.667s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.334s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.723s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.731s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.734s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.740s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.303s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.409s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.410s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.410s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.736s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[8.739s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[8.776s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.814s] -- Configured cppcheck include dirs: 
+[8.815s] -- Configured cppcheck exclude dirs and/or files: 
+[8.820s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.820s] -- Configured cpplint exclude dirs and/or files: 
+[8.826s] -- Added test 'uncrustify' to check C / C++ code style
+[8.826s] -- Configured uncrustify additional arguments: 
+[8.830s] -- Added test 'lint_cmake' to check CMake code style
+[8.832s] -- Added test 'xmllint' to check XML markup files
+[8.840s] -- Configuring done
+[9.101s] -- Generating done
+[9.124s] -- Build files have been written to: /home/robot/ros_workspaces/project2/build/firstservicepkg
+[9.295s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.334s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.400s] [  8%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[9.417s] [  8%] Built target ament_cmake_python_copy_firstservicepkg
+[9.544s] [ 11%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[10.844s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/turn_camera.hpp: No such file or directory
+[10.846s]     2 | #include [01;31m[K"firstservicepkg/srv/turn_camera.hpp"[m[K
+[10.848s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.852s] compilation terminated.
+[10.864s] gmake[2]: *** [CMakeFiles/turn_camera_client.dir/build.make:76: CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o] Error 1
+[10.867s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_client.dir/all] Error 2
+[10.869s] gmake[1]: *** Waiting for unfinished jobs....
+[11.266s] In file included from [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_service.cpp:2[m[K:
+[11.267s] [01m[K/home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/detail/turn_camera__struct.hpp: No such file or directory
+[11.267s]     7 | #include [01;31m[K"firstservicepkg/srv/detail/turn_camera__struct.hpp"[m[K
+[11.268s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.271s] compilation terminated.
+[11.281s] gmake[2]: *** [CMakeFiles/turn_camera_service.dir/build.make:76: CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o] Error 1
+[11.283s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_service.dir/all] Error 2
+[11.462s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c[0m
+[11.533s] [ 14%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_generator_c.dir/rosidl_generator_c/firstservicepkg/srv/detail/turn_camera__functions.c.o[0m
+[11.622s] [ 14%] Built target firstservicepkg__cpp
+[11.817s] [ 17%] [32m[1mLinking C shared library libfirstservicepkg__rosidl_generator_c.so[0m
+[11.988s] [ 17%] Built target firstservicepkg__rosidl_generator_c
+[11.992s] gmake: *** [Makefile:146: all] Error 2
+[11.999s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

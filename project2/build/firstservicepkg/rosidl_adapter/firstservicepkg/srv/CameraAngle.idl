@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from firstservicepkg/srv/CameraAngle.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module firstservicepkg {
+  module srv {
+    struct CameraAngle_Request {
+      @verbatim (language="comment", text=
+        "REQUEST")
+      float number;
+    };
+    @verbatim (language="comment", text=
+      "RESPONSE")
+    struct CameraAngle_Response {
+      sensor_msgs::msg::Image camera_image;
+    };
+  };
+};

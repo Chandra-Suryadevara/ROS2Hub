@@ -1,0 +1,30 @@
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:19:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    1 | #include <opencv2/
+      |                   [01;31m[K^[m[K
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/: No such file or directory
+    1 | #include [01;31m[K<[m[Kopencv2/
+      |          [01;31m[K^[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:18:18:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   18 |     sensor_msgs::[01;31m[KImage[m[K camera_image;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:[m[K In function ‘[01m[Kbool getCameraImage(const TurnCameraRequest&, TurnCameraResponse&)[m[K’:
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[KImagePtr[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+   47 |     sensor_msgs::[01;31m[KImagePtr[m[K img_ptr = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();
+      |                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct TurnCameraResponse[m[K’ has no member named ‘[01m[Kcamera_image[m[K’
+   49 |     res.[01;31m[Kcamera_image[m[K = *img_ptr;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_ptr[m[K’ was not declared in this scope
+   49 |     res.camera_image = *[01;31m[Kimg_ptr[m[K;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:54:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

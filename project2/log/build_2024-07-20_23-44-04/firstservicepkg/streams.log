@@ -1,0 +1,24 @@
+[0.050s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.296s] [  2%] Built target firstservicepkg__cpp
+[0.297s] [ 11%] Built target firstservicepkg__rosidl_generator_c
+[0.327s] [ 14%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o[0m
+[0.358s] [ 14%] Built target ament_cmake_python_copy_firstservicepkg
+[0.406s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/highgui.hpp: No such file or directory
+[0.409s]     1 | #include [01;31m[K<opencv2/highgui.hpp>[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.410s] compilation terminated.
+[0.418s] [ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o[0m
+[0.427s] [ 25%] Built target firstservicepkg__rosidl_typesupport_cpp
+[0.459s] [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_Server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/highgui.hpp: No such file or directory
+[0.462s]     2 | #include [01;31m[K<opencv2/highgui.hpp>[m[K
+[0.464s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.467s] compilation terminated.
+[0.497s] gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_Server.cpp.o] Error 1
+[0.500s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+[0.503s] gmake[1]: *** Waiting for unfinished jobs....
+[0.513s] [ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[0.529s] [ 42%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[0.578s] gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_Client.cpp.o] Error 1
+[0.579s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+[0.580s] gmake: *** [Makefile:146: all] Error 2
+[0.584s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4

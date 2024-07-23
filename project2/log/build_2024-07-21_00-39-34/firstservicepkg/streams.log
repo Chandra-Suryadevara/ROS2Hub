@@ -1,0 +1,232 @@
+[0.045s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[0.148s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.671s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.794s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.807s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.838s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.282s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.288s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.612s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.647s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.321s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.734s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.740s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.743s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.747s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.299s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.406s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.408s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.411s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.731s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[8.734s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[8.772s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.804s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.808s] -- Configured cppcheck include dirs: 
+[8.809s] -- Configured cppcheck exclude dirs and/or files: 
+[8.814s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.814s] -- Configured cpplint exclude dirs and/or files: 
+[8.820s] -- Added test 'uncrustify' to check C / C++ code style
+[8.821s] -- Configured uncrustify additional arguments: 
+[8.824s] -- Added test 'lint_cmake' to check CMake code style
+[8.826s] -- Added test 'xmllint' to check XML markup files
+[8.834s] -- Configuring done
+[9.088s] -- Generating done
+[9.106s] -- Build files have been written to: /home/robot/ros_workspaces/project2/build/firstservicepkg
+[9.238s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_c[0m
+[9.274s] [  2%] Built target firstservicepkg__cpp
+[9.325s] [ 11%] Built target firstservicepkg__rosidl_generator_c
+[9.329s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.395s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.441s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.455s] [ 20%] Built target ament_cmake_python_copy_firstservicepkg
+[9.608s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.373s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c[0m
+[11.384s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_cpp[0m
+[11.552s] [ 25%] [32mBuilding CXX object CMakeFiles/firstservicepkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/firstservicepkg/srv/turn_camera__type_support.cpp.o[0m
+[11.587s] [ 28%] [32mBuilding CXX object CMakeFiles/firstservicepkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/firstservicepkg/srv/detail/turn_camera__type_support_c.cpp.o[0m
+[11.839s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_cpp[0m
+[11.874s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_cpp[0m
+[12.036s] [ 31%] [32mBuilding CXX object CMakeFiles/firstservicepkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/firstservicepkg/srv/detail/turn_camera__type_support.cpp.o[0m
+[12.089s] [ 34%] [32mBuilding CXX object CMakeFiles/firstservicepkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/firstservicepkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o[0m
+[13.960s] [ 37%] [32m[1mLinking CXX shared library libfirstservicepkg__rosidl_typesupport_cpp.so[0m
+[14.399s] [ 37%] Built target firstservicepkg__rosidl_typesupport_cpp
+[14.447s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.575s] [ 42%] [32m[1mLinking CXX shared library libfirstservicepkg__rosidl_typesupport_fastrtps_c.so[0m
+[14.673s] [ 45%] [32m[1mLinking CXX shared library libfirstservicepkg__rosidl_typesupport_introspection_cpp.so[0m
+[15.299s] [ 45%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[15.346s] [ 45%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[15.415s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.638s] [ 51%] [32m[1mLinking CXX shared library libfirstservicepkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.107s] [ 51%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[16.222s] [ 54%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[16.600s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c[0m
+[16.736s] [ 57%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/firstservicepkg/srv/detail/turn_camera__type_support.c.o[0m
+[17.190s] [ 60%] [32m[1mLinking C shared library libfirstservicepkg__rosidl_typesupport_introspection_c.so[0m
+[17.226s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c[0m
+[17.279s] [ 62%] [32mBuilding CXX object CMakeFiles/firstservicepkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/firstservicepkg/srv/turn_camera__type_support.cpp.o[0m
+[17.415s] running egg_info
+[17.420s] writing firstservicepkg.egg-info/PKG-INFO
+[17.422s] writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+[17.424s] writing top-level names to firstservicepkg.egg-info/top_level.txt
+[17.437s] reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[17.441s] writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[17.482s] [ 62%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[17.547s] [ 65%] [32m[1mLinking CXX shared library libfirstservicepkg__rosidl_typesupport_c.so[0m
+[17.576s] [ 68%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[17.641s] [ 68%] Built target ament_cmake_python_build_firstservicepkg_egg
+[17.819s] [ 68%] Built target firstservicepkg__rosidl_typesupport_c
+[17.908s] [ 68%] Built target firstservicepkg
+[17.998s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.062s] [ 71%] Built target firstservicepkg__py
+[20.109s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_generator_py[0m
+[20.210s] [ 74%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_generator_py.dir/rosidl_generator_py/firstservicepkg/srv/_turn_camera_s.c.o[0m
+[20.907s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/firstservicepkg/libfirstservicepkg__rosidl_generator_py.so[0m
+[21.184s] [ 77%] Built target firstservicepkg__rosidl_generator_py
+[21.240s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_introspection_c__pyext[0m
+[21.302s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.411s] [ 80%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.434s] [ 82%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.265s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.385s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.631s] [ 88%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+[22.681s] [35m[1mConsolidate compiler generated dependencies of target firstservicepkg__rosidl_typesupport_c__pyext[0m
+[22.821s] [ 91%] [32mBuilding C object CMakeFiles/firstservicepkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_c.c.o[0m
+[22.995s] [ 91%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+[23.495s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.785s] [ 94%] Built target firstservicepkg__rosidl_typesupport_c__pyext
+[37.914s] [ 97%] [32m[1mLinking CXX executable turn_camera_client[0m
+[38.761s] [100%] [32m[1mLinking CXX executable turn_camera_service[0m
+[40.786s] [100%] Built target turn_camera_service
+[40.795s] [100%] Built target turn_camera_client
+[40.846s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/ros_workspaces/project2/build/firstservicepkg -- -j4 -l4
+[41.167s] Invoking command in '/home/robot/ros_workspaces/project2/build/firstservicepkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/project2/build/firstservicepkg
+[41.200s] -- Install configuration: ""
+[41.212s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/ament_index/resource_index/rosidl_interfaces/firstservicepkg
+[41.213s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.213s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg
+[41.214s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_generator_c__visibility_control.h
+[41.214s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.214s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/camera_angle.h
+[41.215s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.h
+[41.216s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.216s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__functions.c
+[41.217s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__functions.c
+[41.217s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__functions.h
+[41.218s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__type_support.h
+[41.218s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__functions.h
+[41.218s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__struct.h
+[41.219s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.h
+[41.219s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__struct.h
+[41.220s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/library_path.sh
+[41.220s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/library_path.dsv
+[41.221s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_c.so
+[41.221s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_c.so" to ""
+[41.222s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.222s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg
+[41.237s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.238s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.238s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.239s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
+[41.239s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_fastrtps_c.h
+[41.240s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_c.so
+[41.240s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_c.so" to ""
+[41.240s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.241s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.241s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/camera_angle.hpp
+[41.242s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.hpp
+[41.242s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.242s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__struct.hpp
+[41.243s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__traits.hpp
+[41.243s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__traits.hpp
+[41.244s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__builder.hpp
+[41.244s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__builder.hpp
+[41.244s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__struct.hpp
+[41.245s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.245s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg
+[41.246s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.246s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.246s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.259s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[41.260s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[41.260s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/dds_fastrtps
+[41.261s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_cpp.so
+[41.261s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[41.262s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.262s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg
+[41.262s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.263s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.263s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.264s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h
+[41.264s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_introspection_c.h
+[41.264s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.c
+[41.265s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__type_support.c
+[41.265s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_c.so
+[41.266s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_c.so" to ""
+[41.266s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_c.so
+[41.268s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_c.so" to ""
+[41.269s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg
+[41.270s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv
+[41.271s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail
+[41.272s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__type_support.cpp
+[41.274s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp
+[41.276s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/turn_camera__type_support.cpp
+[41.277s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/detail/camera_angle__rosidl_typesupport_introspection_cpp.hpp
+[41.280s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_cpp.so
+[41.280s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_introspection_cpp.so" to ""
+[41.282s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_cpp.so
+[41.285s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_typesupport_cpp.so" to ""
+[41.286s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/pythonpath.sh
+[41.287s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/environment/pythonpath.dsv
+[41.289s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info
+[41.290s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/PKG-INFO
+[41.291s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[41.293s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/top_level.txt
+[41.294s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[41.296s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg
+[41.299s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.299s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/__init__.py
+[41.300s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/libfirstservicepkg__rosidl_generator_py.so
+[41.302s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv
+[41.303s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_turn_camera.py
+[41.305s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_camera_angle.py
+[41.305s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/__init__.py
+[41.307s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_turn_camera_s.c
+[41.309s] -- Up-to-date: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_camera_angle_s.c
+[41.309s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.311s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_introspection_c.c
+[41.313s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.314s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/_firstservicepkg_s.ep.rosidl_typesupport_c.c
+[41.317s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.468s] Listing '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg'...
+[41.469s] Compiling '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/__init__.py'...
+[41.469s] Listing '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv'...
+[41.470s] Compiling '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/__init__.py'...
+[41.471s] Compiling '/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/srv/_turn_camera.py'...
+[41.500s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.500s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[41.501s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.501s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[41.502s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.502s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/local/lib/python3.10/dist-packages/firstservicepkg/firstservicepkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[41.503s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_py.so
+[41.506s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/libfirstservicepkg__rosidl_generator_py.so" to ""
+[41.507s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/TurnCamera.idl
+[41.508s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/TurnCamera.srv
+[41.510s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/TurnCamera_Request.msg
+[41.512s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/share/firstservicepkg/srv/TurnCamera_Response.msg
+[41.514s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/firstservicepkg/turn_camera_service
+[41.521s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/firstservicepkg/turn_camera_service" to ""
+[41.522s] -- Installing: /home/robot/ros_workspaces/project2/install/firstservicepkg/lib/firstservicepkg/turn_camera_client
+[41.529s] -- Set runtime path of "/home/robot/ros_workspaces/project2/install/firstservicepkg/lib/firstservicepkg/turn_camera_client" to ""
+[41.530s] [31mCMake Error at cmake_install.cmake:415 (file):
+[41.531s]   file INSTALL cannot find
+[41.532s]   "/home/robot/ros_workspaces/project2/firstservicepkg/launch": No such file
+[41.533s]   or directory.
+[41.533s] 
+[41.534s] [0m
+[41.541s] Invoked command in '/home/robot/ros_workspaces/project2/build/firstservicepkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/ros_workspaces/project2/build/firstservicepkg

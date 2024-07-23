@@ -1,0 +1,39 @@
+[  2%] [32mBuilding CXX object CMakeFiles/turn_camera_Client.dir/src/turn_camera_client.cpp.o[0m
+[  5%] Built target firstservicepkg__cpp
+[ 14%] Built target firstservicepkg__rosidl_generator_c
+[ 14%] Built target ament_cmake_python_copy_firstservicepkg
+[ 17%] [32mBuilding CXX object CMakeFiles/turn_camera_Server.dir/src/turn_camera_service.cpp.o[0m
+[ 25%] Built target firstservicepkg__rosidl_typesupport_cpp
+[ 34%] Built target firstservicepkg__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target firstservicepkg__rosidl_typesupport_introspection_c
+[ 51%] Built target firstservicepkg__rosidl_typesupport_c
+[ 60%] Built target firstservicepkg__rosidl_typesupport_introspection_cpp
+[ 68%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c
+[ 68%] Built target firstservicepkg
+[ 71%] Built target firstservicepkg__py
+[ 77%] Built target firstservicepkg__rosidl_generator_py
+[ 82%] Built target firstservicepkg__rosidl_typesupport_fastrtps_c__pyext
+In file included from [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_client.cpp:2[m[K:
+[01m[K/home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/detail/turn_camera__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"firstservicepkg/srv/detail/turn_camera__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turn_camera_Client.dir/build.make:76: CMakeFiles/turn_camera_Client.dir/src/turn_camera_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/turn_camera_Client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 88%] Built target firstservicepkg__rosidl_typesupport_introspection_c__pyext
+In file included from [01m[K/home/robot/ros_workspaces/project2/firstservicepkg/src/turn_camera_service.cpp:2[m[K:
+[01m[K/home/robot/ros_workspaces/project2/install/firstservicepkg/include/firstservicepkg/firstservicepkg/srv/turn_camera.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kfirstservicepkg/srv/detail/turn_camera__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"firstservicepkg/srv/detail/turn_camera__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turn_camera_Server.dir/build.make:76: CMakeFiles/turn_camera_Server.dir/src/turn_camera_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/turn_camera_Server.dir/all] Error 2
+running egg_info
+writing firstservicepkg.egg-info/PKG-INFO
+writing dependency_links to firstservicepkg.egg-info/dependency_links.txt
+writing top-level names to firstservicepkg.egg-info/top_level.txt
+reading manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+writing manifest file 'firstservicepkg.egg-info/SOURCES.txt'
+[ 88%] Built target ament_cmake_python_build_firstservicepkg_egg
+gmake: *** [Makefile:146: all] Error 2
