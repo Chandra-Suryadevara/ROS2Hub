@@ -17,7 +17,6 @@ Welcome to ROS2Hub! This repository is a comprehensive resource for learning, ex
     - [Simulations and visualization.ipynb](#simulations-and-visualizationipynb)
 3. [Additional Resources](#additional-resources)
     - [Data](#data)
-    - [Debugging & Compiling for VSCode](#debugging--compiling-for-vscode)
 4. [Contributing](#contributing)
 5. [License](#license)
 
